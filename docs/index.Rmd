@@ -1,0 +1,224 @@
+---
+title: "Reconhecimento Automático de Espécies Florestais Usando Redes Neurais Convolucionais:"
+subtitle: "Técnicas, Modelagem e Aplicação Web  <BR> <BR> <BR> <BR>"
+#subtitle: "Potencial para modelagem de variáveis florestais"
+author: "<BR> Prof. Dr. Deivison Venicio Souza"
+institute: |
+  | Universidade Federal do Pará (UFPA) <BR> <BR> 
+  | Faculdade de Engenharia Florestal
+  | Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas
+date: | 
+  .center[`r format(Sys.Date(),"%d/%B/%Y")` <BR> 
+   Altamira, Pará <BR> ]
+encoding: "UTF-8"
+#output: revealjs::revealjs_presentation
+#output: rmdshower::shower_presentation
+header-includes: 
+   - \usepackage{multirow}
+   - \usepackage[brazil]{babel}
+   - \usepackage{tikz}
+   - \usepackage[hidelinks,pdfencoding=auto]{hyperref}
+   - \usepackage{smartdiagram}
+output:
+  xaringan::moon_reader:
+    includes:
+      after_body: css/sydney.css
+    css: [default, metropolis] #xaringan-themer.css 
+    lib_dir: libs
+    nature:
+      #autoplay: 30000
+      #countdown: 60000
+      #titleSlideClass: [top, left, inverse]
+      highlightStyle: idea #monokai
+      highlightLines: true
+      highlightLanguage: r
+      countIncrementalSlides: false
+      ratio: "16:9"
+    seal: true
+---
+
+name: toc
+
+```{r setup, include=FALSE, cache=FALSE, eval=TRUE}
+library(tidyverse)
+library(rpart)                            
+library(rpart.plot)
+library(kableExtra)
+library(plotly)
+
+options(htmltools.dir.version = FALSE,
+        servr.daemon = TRUE)
+
+knitr::opts_chunk$set(
+  fig.showtext = TRUE,
+  fig.align = "center", 
+  cache = TRUE,
+  error = FALSE,
+  message = FALSE, 
+  warning = FALSE, 
+  collapse = TRUE ,
+  dpi = 600,
+  dev.args=list(bg='transparent')
+)
+
+```
+
+```{r xaringanExtra, echo=FALSE, eval=TRUE}
+#remotes::install_github("gadenbuie/xaringanExtra")
+library(xaringanExtra)
+# use_logo(
+#   image_url = "fig/ufpa.png",
+#   position = css_position(top = ".8em", right = "1em"),
+#   width = "140px",
+#   height = "140px"
+# )
+# 
+use_extra_styles(
+  hover_code_line = TRUE,         #<<
+  mute_unhighlighted_code = TRUE  #<<
+)
+
+# use_tachyons()
+use_panelset()
+# use_clipboard()
+#style_panelset(panel_tab_color_active = "red")
+```
+
+```{r xaringanthemer, warning=FALSE, include=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#43418A",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+```{r, load_refs, include=FALSE, cache=FALSE}
+library(RefManageR)
+BibOptions(check.entries = FALSE,
+           style = "markdown",
+           bib.style = "authoryear",
+           cite.style = "authoryear",
+           first.inits = TRUE,
+           style = "html",
+           hyperlink = FALSE,
+           dashed = FALSE)
+#(myBib <- ReadBib("./bib/ref.bib", check = FALSE))
+```
+
+# 👋 Olá!
+
+## <bdi style="color:magenta;">1. Deivison Souza </bdi>
+
+.pull-left[
+* <bdi style="font-weight:bold">Graduação (Titulação: ano 2008)</bdi>
+    + Universidade Federal Rural da Amazônia (UFRA); e
+    + Título: Bacharel em Engenharia Florestal.
+
+* <bdi style="font-weight:bold">Mestrado (Titulação: ano 2011)</bdi>
+    + Universidade Federal Rural da Amazônia (UFRA);
+    + Programa de Pós-graduação em Ciências Florestais (PPGCF); e
+    + Área de Concentração: Manejo de ecossistemas florestais.
+]
+
+.pull-right[
+* <bdi style="font-weight:bold">Doutorado (Titulação: ano 2020)</bdi>
+    + Universidade Federal do Paraná (UFPR);
+    + Programa de Pós-graduação em Engenharia Florestal (PPGEF); e
+    + Área de Concentração: Manejo Florestal.
+    
+* <bdi style="font-weight:bold">Especialização (Defesa: ano 2019)</bdi>
+    + Universidade Federal do Paraná (UFPR);
+    + Área: Big Data e Data Science
+]
+
+<!-- Slide 2 -->
+---
+background-image: url(fig/white.jpg)
+background-size: cover
+# Conteúdo
+
+.pull-top[
+**Parte 1 - Conceitos e fundamentação teórica**
+
+[1 - Qual é o motivo de fazer análise de regressão?](#AR)
+
+[2 - Culturas na modelagem estatística](#CultME)
+
+[3 - Aprendizado de Máquina](#AM)
+
+&nbsp;&nbsp;[3.1 - Tipos de Aprendizagem](#TA)
+
+&nbsp;&nbsp;[3.2 - Algoritmos de Aprendizado Supersivionado](#AAS)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2.1 - Regression Tree](#RT)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2.2 - Bagging](#bag)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2.3 - Random Forest](#rf)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2.4 - Outros (M5', ...)](#out)
+
+&nbsp;&nbsp;[3.3 - Métodos de Reamostragem](#mr)
+
+&nbsp;&nbsp;[3.4 - Medidas de Desempenho](#md)
+
+]
+
+<!-- Slide 2 -->
+---
+background-image: url(fig/white.jpg)
+background-size: cover
+# Conteúdo
+
+.pull-top[
+
+**Parte 2 - Aprendizado de Máquina com Linguagem R**
+
+[1 - Bibliotecas no Cran Task View](#bctv)
+
+[2 - Pacote CARET](#caret)
+
+[3 - Fluxograma: aprendizado de MAM usando CARET](#fluxo)
+
+[4 - Modelagem no R: uma rápida intuição](#exR)
+
+[5 - Aplicação Web: MAM para biomassa e volume](#shiny)
+
+<br>
+
+**Parte 3 - Aplicações nas Ciências Florestais**
+
+[1 - Principais áreas de aplicações](#paa)
+
+[2 - Apredizado de máquina na Mensuração Florestal](#ammf)
+
+[3 - AM vs Métodos Tradicionais](#ammt)
+
+[4 - Considerações finais](#cf)
+
+]
+
+<br> <br>
+
+.center[.footnote[Imagem de <a href="https://pixabay.com/pt/users/pen_ash-5526837/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5358904">pen_ash</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5358904">Pixabay</a>]]
+
+
+<!-- Slide XX -->
+---
+name: AR
+class: inverse, middle, left
+background-image: url(fig/white.jpg)
+background-size: cover
+
+.font200[**Parte 1** <br> .green[Conceitos e fundamentação teórica]]
+
+---
+
+
+
+
+
+
+
