@@ -14,7 +14,7 @@ output:
     css: 
       - default 
       - assets/sydney-fonts.css
-      - assets/slide-title/sydney-title.css
+      - assets/sydney-title.css
     self_contained: false
     seal: false
     includes:
@@ -78,14 +78,16 @@ library(ggimage)
 ##### Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas
 ##### Programa de Pós-Graduação em Biodiversidade e Conservação (PPGBC)/UFPA
 ##### Programa de Pós-Graduação em Ciência, Tecnologia e Inovação Florestal (PPGCTIF)/UFOPA
-<br>
-## Redes Neurais Convolucionais (RNCs): Reconhecendo Espécies de Plantas a partir de Imagens
+
+## Redes Neurais Convolucionais (RNCs): Reconhecendo Espécies de Plantas Usando Recursos de Imagens
+### (*Convolutional Neural Networks (CNNs): Recognizing Plant Species Using Image Features*)
 <br>
 `r anicon::faa("pagelines", animate="horizontal", colour="green", size = 2)`
 `r anicon::faa("tree", animate="float", colour="green", size = 2)`
 <br>
-##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
-##### .font120[**Prof. Dr. Deivison Venicio Souza**]
+##### 〰〰〰〰〰〰〰〰〰🌳〰〰〰〰〰〰〰〰〰
+##### .font120[**Deivison Venicio Souza**]
+##### Professor Associado I - UFPA
 ##### E-mail: deivisonvs@ufpa.br
 ##### 👨🏻‍👩🏻‍👦🏻‍👦🏻 [@lmftca_ufpa](https://www.instagram.com/lmftca_ufpa/)
 ##### 🌎 [https://www.lmftca.com.br/](https://www.lmftca.com.br/)
@@ -166,7 +168,7 @@ class: with-logo logo-ufpa
 layout: false
 name: if
 class: inverse, middle, center
-background-image: url(fig/sec.png)
+background-image: url(fig/sec2.png)
 background-size: cover
 
 .font150[**Redes Neurais Convolucionais** <br> (Conceitos e fundamentação teórica)]
