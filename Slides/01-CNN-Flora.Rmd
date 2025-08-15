@@ -1,6 +1,7 @@
 ---
-title: "Redes Neurais Convolucionais para Reconhecimento Automático de Espécies Arbóreas"
-subtitle: "Técnicas, "
+title: "Redes Neurais Convolucionais (RNCs): Reconhecendo Espécies de Plantas a partir de Imagens"
+#title: "Convolutional Neural Networks (CNNs): Recognizing Plant Species from Images"
+subtitle: "Técnicas, Aplicações"
 author: "Prof. Dr. Deivison Venicio Souza"
 institute: "Universidade Federal do Pará (UFPA)"
 date: 
@@ -29,9 +30,9 @@ output:
         scroll: false
 ---
 class: title-slide, center, middle
-background-image: url(fig/LMFTCA.png), url(fig/ufpa.png), url(fig/capa.jpg)
-background-position: 90% 90%, 10% 90%
-background-size: 150px, 150px, cover
+background-image: url(fig/LMFTCA.png), url(fig/ufpa.png), url(fig/PPGBC.png), url(fig/PPGCTIF.PNG), url(fig/capa.jpg)
+background-position: 90% 5%, 10% 5%, 10% 90%, 90% 90%
+background-size: 130px, 110px, 150px, 130px, cover
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
@@ -71,20 +72,24 @@ library(ggimage)
 
 
 <!-- title-slide -->
-
-
-## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Redes Neurais Convolucionais para Reconhecimento Automático de Espécies da Flora `r anicon::faa("pagelines", animate="horizontal", colour="green")`
-<br><br><br><br>
-`r anicon::faa("pagelines", animate="horizontal", colour="green")`
-##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
-##### .font120[**Prof. Dr. Deivison Venicio Souza**]
+<br>
 ##### Universidade Federal do Pará (UFPA)
 ##### Faculdade de Engenharia Florestal
 ##### Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas
 ##### Programa de Pós-Graduação em Biodiversidade e Conservação (PPGBC)/UFPA
 ##### Programa de Pós-Graduação em Ciência, Tecnologia e Inovação Florestal (PPGCTIF)/UFOPA
+<br>
+## Redes Neurais Convolucionais (RNCs): Reconhecendo Espécies de Plantas a partir de Imagens
+<br>
+`r anicon::faa("pagelines", animate="horizontal", colour="green", size = 2)`
+`r anicon::faa("tree", animate="float", colour="green", size = 2)`
+<br>
+##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
+##### .font120[**Prof. Dr. Deivison Venicio Souza**]
 ##### E-mail: deivisonvs@ufpa.br
-<br><br>
+##### 👨🏻‍👩🏻‍👦🏻‍👦🏻 [@lmftca_ufpa](https://www.instagram.com/lmftca_ufpa/)
+##### 🌎 [https://www.lmftca.com.br/](https://www.lmftca.com.br/)
+<br>
 ##### 1ª versão: 08/setembro/2025 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
 
 ---
