@@ -1,0 +1,230 @@
+---
+title: "Inventário Florestal (FL03039 - EF)"
+subtitle: "Métodos de Amostragem em Inventários Florestais"
+author: "Prof. Dr. Deivison Venicio Souza"
+institute: "Universidade Federal do Pará (UFPA)"
+date: 
+encoding: "UTF-8"
+header-includes: 
+   - \usepackage{xcolor}
+   - \usepackage{amsmath}
+output:
+  xaringan::moon_reader:
+    css: 
+      - default 
+      - assets/sydney-fonts.css
+      - assets/slide-title/sydney-title.css
+    self_contained: false
+    seal: false
+    includes:
+      in_header: "assets/mathjax-equation-numbers.html"
+    nature:
+      beforeInit: ["assets/remark-zoom.js", "https://platform.twitter.com/widgets.js"]
+      highlightStyle: googlecode
+      highlightLines: true
+      countIncrementalSlides: false
+      highlightLanguage: ["r", "css", "yaml"]
+      ratio: '16:9'
+      navigation:
+        scroll: false
+---
+class: title-slide, center, middle
+background-image: url(fig/LMFTCA.png), url(fig/ufpa.png), url(fig/capa.png)
+background-position: 90% 90%, 10% 90%
+background-size: 150px, 150px, cover
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  fig.showtext = TRUE,
+  fig.align = "center", 
+  cache = TRUE,
+  error = FALSE,
+  message = FALSE, 
+  warning = FALSE, 
+  collapse = TRUE ,
+  dpi = 600)
+```
+
+```{r xaringan-logo, echo=FALSE}
+library(xaringanExtra)
+use_logo(
+  image_url = "fig/logo.png",
+  position = css_position(top = ".8em", right = "1em"),
+  width = "200px",
+  height = "200px"
+)
+```
+
+```{r icon, echo=FALSE}
+#remotes::install_github("mitchelloharawild/icons")
+#library(icons)
+#download_fontawesome()
+#download_simple_icons()
+```
+
+```{r packages, include=FALSE}
+# remotes::install_github("dill/emoGG")
+library(ggplot2)
+library(dplyr)
+library(ggimage)
+```
+
+
+<!-- title-slide -->
+# .font120[Inventário Florestal <br> (FL03039 - EF)]
+
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Métodos de Amostragem`r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> ᨒ
+###### Área Fixa e Área Variável
+
+##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
+##### ᨒ
+##### .font120[**Prof. Dr. Deivison Venicio Souza**]
+##### Universidade Federal do Pará (UFPA)
+##### Faculdade de Engenharia Florestal
+##### Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas
+##### E-mail: deivisonvs@ufpa.br
+<br>
+##### 1ª versão: 08/setembro/2025 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
+
+---
+layout: true
+class: with-logo logo-ufpa
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Métodos de Amostragem</div2> </div>
+
+---
+
+## 📙 Conteúdo
+<br>
+.pull-left-4[
+.pull-top[
+👉 **Parte 1 - Conceitos e fundamentação teórica**
+.font80[
+
+[1 - Motivação](#mot)
+
+[2 - Inteligência Artificial, Aprendizado de Máquina e Aprendizado Profundo](#ia)
+
+[3 - Redes Neurais Convolucionais (RNC)](#ia)
+
+&nbsp;&nbsp;[3.1 - O que são?](#TA)
+
+&nbsp;&nbsp;[3.2 - Arquitetura](#TA)
+
+&nbsp;&nbsp;[3.3 - Redes Neurais Convolucionais Pré-Treinadas](#TA)
+
+&nbsp;&nbsp;[3.4 -Bibliotecas (keras, Tensorflow)](#TA)
+
+[3 - Métodos de Reamostragem](#rea) 
+
+[4 - Medidas de Desempenho](#des)
+
+]
+]
+]
+
+--
+
+.pull-right-4[
+👉 **Parte 2 - Aplicações no reconhecimento de Espécies da Flora**
+.font80[
+[1 - Método de Bitterlich](#mb)
+
+[2 - Método da Linha Interceptadora](#mli)
+
+[3 - Método de Strand](#ms)
+
+[4 - Método de Prodan](#mp)
+
+]
+]
+
+---
+
+## 📙 Conteúdo
+<br>
+.pull-left-4[
+.pull-top[
+👉 **Parte 3 - Projeto Deep Flora**
+.font80[
+
+[1 - Motivação](#mot)
+
+
+]
+]
+]
+
+<!-- Slide XX -->
+---
+layout: false
+name: if
+class: inverse, middle, center
+background-image: url(fig/sec.png)
+background-size: cover
+
+.font150[**Redes Neurais Convolucionais** <br> (Conceitos e fundamentação teórica)]
+
+---
+layout: true
+class: with-logo logo-ufpa
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Métodos de Amostragem</div2> </div>
+
+---
+name: ma
+## 🌳 Métodos de Amostragem
+
+.shadow1[
+### Conceito
+
+- É a forma de .blue[abordagem da população florestal] referente a .blue[uma única unidade de amostra] (ou parcela). Ou seja, o tipo de unidade amostral a ser empregada no inventário florestal. 
+]
+
+---
+layout: false
+name: if
+class: inverse, middle, center
+background-image: url(fig/sec.png)
+background-size: cover
+
+.font150[**Métodos de Área Fixa**]
+
+---
+layout: true
+class: with-logo logo-ufpa
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Métodos de Amostragem</div2> </div>
+
+---
+
+
+
+
+---
+
+## 📖 Referências
+
+<br><br>
+CAMPOS, J. C. C.; LEITE, H. G. **Mensuração florestal: perguntas e respostas**. 3ª ed. - Viçosa, MG: Ed. UFV, 2009. 548 p.
+
+---
+
+layout: false
+name: etim
+class: inverse, middle, center
+background-image: url(fig/sec.png)
+background-size: cover
+
+## .font200[Obrigado!]
+
+```{r, echo=FALSE, out.width='20%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/LMFTCA.png')
+```
+
+👨🏻‍👩🏻‍👦🏻‍👦🏻 [@lmftca_ufpa](https://www.instagram.com/lmftca_ufpa/)
+
+🌎 [https://www.lmftca.com.br/](https://www.lmftca.com.br/)
+
+
+
