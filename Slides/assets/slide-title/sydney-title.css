@@ -744,11 +744,12 @@ h4 {
 
 /* H2 fonts */
 .title-slide h2 {
-  color: white !important; /* first of type is master brand red */
-  font-size: 50px;
+  color: #008000 !important; /* first of type is master brand red */
+  font-size: 40px;
   font-weight: bold;
   padding-top: 30px;
-  padding-left: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-bottom: 0px;
   margin-top: 0px;
   margin-left: 0px;
@@ -786,7 +787,7 @@ h4 {
 
 /* H5 fonts */
 .title-slide h5 {
-  color: #DAF7A6 !important;
+  color: #004700 !important;
   font-size: 15px;
   font-weight: normal;
   padding-top: 0px;

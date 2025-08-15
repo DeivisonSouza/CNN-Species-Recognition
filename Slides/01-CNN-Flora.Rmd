@@ -1,6 +1,6 @@
 ---
-title: "Inventário Florestal (FL03039 - EF)"
-subtitle: "Métodos de Amostragem em Inventários Florestais"
+title: "Redes Neurais Convolucionais para Reconhecimento Automático de Espécies Arbóreas"
+subtitle: "Técnicas, "
 author: "Prof. Dr. Deivison Venicio Souza"
 institute: "Universidade Federal do Pará (UFPA)"
 date: 
@@ -29,7 +29,7 @@ output:
         scroll: false
 ---
 class: title-slide, center, middle
-background-image: url(fig/LMFTCA.png), url(fig/ufpa.png), url(fig/capa.png)
+background-image: url(fig/LMFTCA.png), url(fig/ufpa.png), url(fig/capa.jpg)
 background-position: 90% 90%, 10% 90%
 background-size: 150px, 150px, cover
 
@@ -71,19 +71,20 @@ library(ggimage)
 
 
 <!-- title-slide -->
-# .font120[Inventário Florestal <br> (FL03039 - EF)]
 
-## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Métodos de Amostragem`r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> ᨒ
-###### Área Fixa e Área Variável
 
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Redes Neurais Convolucionais para Reconhecimento Automático de Espécies da Flora `r anicon::faa("pagelines", animate="horizontal", colour="green")`
+<br><br><br><br>
+`r anicon::faa("pagelines", animate="horizontal", colour="green")`
 ##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
-##### ᨒ
 ##### .font120[**Prof. Dr. Deivison Venicio Souza**]
 ##### Universidade Federal do Pará (UFPA)
 ##### Faculdade de Engenharia Florestal
 ##### Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas
+##### Programa de Pós-Graduação em Biodiversidade e Conservação (PPGBC)/UFPA
+##### Programa de Pós-Graduação em Ciência, Tecnologia e Inovação Florestal (PPGCTIF)/UFOPA
 ##### E-mail: deivisonvs@ufpa.br
-<br>
+<br><br>
 ##### 1ª versão: 08/setembro/2025 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
 
 ---
