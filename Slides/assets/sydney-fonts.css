@@ -14,6 +14,7 @@ https://www.slant.co/versus/224/287/~source-code-pro_vs_roboto-mono
 
 body { 
   font-family: 'Roboto', 'Arial', sans-serif;
+  background-image: url('fig/sec2.png');
 }
 h1, h2, h3, h4, h5 {
   font-family: 'sans-serif';

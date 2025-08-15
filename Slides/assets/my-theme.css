@@ -1,14 +1,26 @@
 /***********
- Slide margins and spacings
+ Apply it to all slides
  ************/
+
+.inverse, .hljs-github {
+  background-image: url("fig/sec2.png"); /* Change this to the url of the image you want as your background */
+  background-size: cover;
+}
+
+
 
 .remark-slide-content {
   padding-top: 5px;
   padding-left: 50px;
   padding-right: 50px;
+  background-image: url("fig/sec2.png"); /* Replace with your image path */
+  background-size: cover; /* Adjust as needed: cover, contain, 100% 100%, etc. */
+  background-repeat: no-repeat; /* Prevents image from repeating if smaller than slide */
+  background-position: center center; /* Adjust as needed: top left, center, etc. */
 }
 
-/* Custom color number slide*/
+/* Custom number slide*/
+
 .remark-slide-number {
   color: black;
   font-weight: bold;
@@ -41,20 +53,6 @@ To specify the margin of the first title h1
   margin-bottom: 10px;
 }
 
-/* Logo */
-
-.logo {
-  background-image: url(fig/slide-title/sciflor.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 1em;
-  right: 1em;
-  width: 110px;
-  height: 128px;
-  z-index: 0;
-}
-
 /* footer and header */
 
 div.my-header {
@@ -76,14 +74,6 @@ div2 {
 div3 {
   color: #DAF7A6;
   font-weight: bold;
-}
-
-.brown{
- color: brown;
-}
-
-.magenta{
- color: magenta;
 }
 
 div.my-footer {
@@ -651,80 +641,35 @@ slides > slide {
   font-size: 70%;
 }
 
+
+.remark-slide-content {
+      background-image: url("path/to/your/image.png"); /* Replace with your image path */
+      background-size: cover; /* Adjust as needed: cover, contain, 100% 100%, etc. */
+      background-repeat: no-repeat; /* Prevents image from repeating if smaller than slide */
+      background-position: center center; /* Adjust as needed: top left, center, etc. */
+}
+
+
+
 /*~~~~~~~~~~~~~~~~*/
 /* USYD additions */
 /*~~~~~~~~~~~~~~~~*/
 
 /* Title slide */
-/* Title slide */
-/* Add image and change bg color
-.title-slide {
-  background-image: url(USydLogo-black.svg), url("title-image.jpg");
-  /* background-image: url(https://sydney.edu.au/etc/designs/corporate-commons/bower_components/corporate-frontend/dist/assets/img/USydLogo.svg); */
-  /*
-  background-position: 10% 90%, 100% 50%;
-  background-size: 160px, 50% 100%;
-  background-color: #e64626;
-  /*padding-left: 100px;   delete this for 4:3 aspect ratio */
-/*
-}
-*/
 
 .title-slide {
-  /*background-image: url(ufpa.png), url(logo-forest.png), url(leave.jpg), url(forest.jpg);*/
-  /* background-image: url(https://sydney.edu.au/etc/designs/corporate-commons/bower_components/corporate-frontend/dist/assets/img/USydLogo.svg); */
-  /*background-position: 20% 1%, 30% 3%, left, right;*/
-  /*background-size: 100px, 100px, 600px 1500px, 600px 710px;*/
+  background-image: url('Slides/fig/title.jpg');
   background-color: #ffffff;
   text-align:right;
   border-bottom: none;
   vertical-align: top;
-  /*text-shadow: none;*/
   border-image: 0px none;
   border-top: 0px solid #FAFAFA;
   text-shadow: none;
   /*padding-left: 100px;   delete this for 4:3 aspect ratio */
 }
 
-/*Modifica o slide de titulo*/
-h1 {
-  font-weight: normal;
-  text-shadow: none;
-  margin-top: 0px;
-  margin-left: 0px;
-  color: black;
-  padding-top: 0px;
-}
-
-h2 {
-  padding-top: 20px;
-  padding-bottom: 00px;
-  color: #b83505;
-  text-shadow: none;
-  font-weight: 400;
-  margin-left: 5px;
-  margin-bottom: 0px;
-}
-
-h3 {
-  padding-top: -15px;
-  padding-bottom: 00px;
-  color: #dd7321;
-  text-shadow: none;
-  font-weight: 200;
-  margin-left: 5px;
-  margin-bottom: 0px;
-}
-
-h4 {
-  padding-top: -15px;
-  padding-bottom: 00px;
-  color: #ed4406;
-  text-shadow: none;
-  font-weight: 400;
-  margin-left: 5px;
-  margin-bottom: 0px;
-}
+/*Modifica o slide de título*/
 
 /* H1 fonts */
 .title-slide h1 {
@@ -819,6 +764,7 @@ h4 {
 }
 
 /* Remove slide count */
+
 .title-slide .remark-slide-number {
   display: none;
 }

@@ -11,10 +11,7 @@ header-includes:
    - \usepackage{amsmath}
 output:
   xaringan::moon_reader:
-    css: 
-      - default 
-      - assets/sydney-fonts.css
-      - assets/sydney-title.css
+    css: ["default", "assets/sydney-fonts.css", "assets/my-theme.css"]
     self_contained: false
     seal: false
     includes:
@@ -30,7 +27,7 @@ output:
         scroll: false
 ---
 class: title-slide, center, middle
-background-image: url(fig/LMFTCA.png), url(fig/ufpa.png), url(fig/PPGBC.png), url(fig/PPGCTIF.PNG), url(fig/capa.jpg)
+background-image: url(fig/LMFTCA.png), url(fig/ufpa.png), url(fig/PPGBC.png), url(fig/PPGCTIF.PNG), url(fig/title.jpg)
 background-position: 90% 5%, 10% 5%, 10% 90%, 90% 90%
 background-size: 130px, 110px, 150px, 130px, cover
 
@@ -44,16 +41,6 @@ knitr::opts_chunk$set(
   warning = FALSE, 
   collapse = TRUE ,
   dpi = 600)
-```
-
-```{r xaringan-logo, echo=FALSE}
-library(xaringanExtra)
-use_logo(
-  image_url = "fig/logo.png",
-  position = css_position(top = ".8em", right = "1em"),
-  width = "200px",
-  height = "200px"
-)
 ```
 
 ```{r icon, echo=FALSE}
@@ -96,14 +83,13 @@ library(ggimage)
 
 ---
 layout: true
-class: with-logo logo-ufpa
-<div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Métodos de Amostragem</div2> </div>
+background-image:  url(fig/LMFTCA.png), url(fig/sec.png)
+background-position: 99% 94%
+background-size: 100px, cover
 
 ---
-
 ## 📙 Conteúdo
-<br>
+
 .pull-left-4[
 .pull-top[
 👉 **Parte 1 - Conceitos e fundamentação teórica**
@@ -168,16 +154,10 @@ class: with-logo logo-ufpa
 layout: false
 name: if
 class: inverse, middle, center
-background-image: url(fig/sec2.png)
 background-size: cover
 
 .font150[**Redes Neurais Convolucionais** <br> (Conceitos e fundamentação teórica)]
 
----
-layout: true
-class: with-logo logo-ufpa
-<div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Métodos de Amostragem</div2> </div>
 
 ---
 name: ma
