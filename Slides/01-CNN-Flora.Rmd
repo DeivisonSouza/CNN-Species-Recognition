@@ -151,9 +151,8 @@ background-size: 100px, cover
 
 <!-- Slide XX -->
 ---
-layout: false
+layout: true
 name: if
-class: inverse, middle, center
 background-size: cover
 
 .font150[**Redes Neurais Convolucionais** <br> (Conceitos e fundamentação teórica)]
@@ -168,21 +167,6 @@ name: ma
 
 - É a forma de .blue[abordagem da população florestal] referente a .blue[uma única unidade de amostra] (ou parcela). Ou seja, o tipo de unidade amostral a ser empregada no inventário florestal. 
 ]
-
----
-layout: false
-name: if
-class: inverse, middle, center
-background-image: url(fig/sec.png)
-background-size: cover
-
-.font150[**Métodos de Área Fixa**]
-
----
-layout: true
-class: with-logo logo-ufpa
-<div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Métodos de Amostragem</div2> </div>
 
 ---
 
@@ -201,7 +185,7 @@ CAMPOS, J. C. C.; LEITE, H. G. **Mensuração florestal: perguntas e respostas**
 layout: false
 name: etim
 class: inverse, middle, center
-background-image: url(fig/sec.png)
+background-image: url(fig/title.jpg)
 background-size: cover
 
 ## .font200[Obrigado!]
