@@ -83,7 +83,7 @@ library(ggimage)
 
 ---
 layout: true
-background-image:  url(fig/LMFTCA.png), url(fig/sec.png)
+background-image:  url(fig/LMFTCA.png), url(fig/cont.png)
 background-position: 99% 94%
 background-size: 100px, cover
 
@@ -151,13 +151,20 @@ background-size: 100px, cover
 
 <!-- Slide XX -->
 ---
-layout: true
-name: if
+class: inverse
+layout: false
+background-image: url(fig/sec.png)
 background-size: cover
 
-.font150[**Redes Neurais Convolucionais** <br> (Conceitos e fundamentação teórica)]
 
+## **Redes Neurais Convolucionais**
+### (Conceitos e fundamentação teórica)
 
+---
+layout: true
+background-image:  url(fig/LMFTCA.png), url(fig/cont.png)
+background-position: 99% 94%
+background-size: 100px, cover
 ---
 name: ma
 ## 🌳 Métodos de Amostragem

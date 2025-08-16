@@ -3,11 +3,10 @@
  ************/
 
 .inverse, .hljs-github {
-  background-image: url("fig/sec2.png"); /* Change this to the url of the image you want as your background */
+  /* background-image: url("fig/sec2.png");*/ /* Change this to the url of the image you want as your background */
+  background-color: #ffffff;
   background-size: cover;
 }
-
-
 
 .remark-slide-content {
   padding-top: 5px;
@@ -24,7 +23,7 @@
 .remark-slide-number {
   color: black;
   font-weight: bold;
-  font-size: 10pt;
+  font-size: 12pt;
   margin-bottom: -5px;
   margin-right: 10px;
 }
@@ -251,13 +250,48 @@ div.my-footer span {
 
 /* Change default inverse background colour */
 .inverse {
-  background-color: black;
-  text-shadow: none;
+  background-color: #ffffff;
   color: black;
+  text-shadow: none;
+  text-align: center;
+  vertical-align: middle;
 }
+
+.inverse h1 {
+  color: black; /* first of type is master brand red */
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  margin-left: 0px;
+  margin-top: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.inverse h3 {
+  font-size: 28px;
+  font-weight: normal;
+  font-family: 'sans-serif';
+  color: #00cc00;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 0px;
+  line-height: 1;
+  text-align: left;
+  margin-left: 70px;
+  margin-left: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
 .inverse .remark-slide-number {
   display: none;
 }
+
 /* background colour classes */
 .sydney-blue {
   background-color: #0148A4;
@@ -642,15 +676,6 @@ slides > slide {
 }
 
 
-.remark-slide-content {
-      background-image: url("path/to/your/image.png"); /* Replace with your image path */
-      background-size: cover; /* Adjust as needed: cover, contain, 100% 100%, etc. */
-      background-repeat: no-repeat; /* Prevents image from repeating if smaller than slide */
-      background-position: center center; /* Adjust as needed: top left, center, etc. */
-}
-
-
-
 /*~~~~~~~~~~~~~~~~*/
 /* USYD additions */
 /*~~~~~~~~~~~~~~~~*/
@@ -691,6 +716,7 @@ slides > slide {
 .title-slide h2 {
   color: #008000 !important; /* first of type is master brand red */
   font-size: 35px;
+  font-family: 'sans-serif';
   font-weight: bold;
   padding-top: 30px;
   padding-left: 100px;
@@ -706,6 +732,7 @@ slides > slide {
 .title-slide h3 {
   font-size: 28px;
   font-weight: normal;
+  font-family: 'sans-serif';
   color: #00cc00;
   padding-left: 100px;
   padding-right: 100px;
