@@ -139,7 +139,7 @@ background-size: 100px, cover
 <br>
 .pull-left-4[
 .pull-top[
-👉 **Parte 3 - Projeto Deep Flora**
+👉 **Parte 3 - Projeto DeepFlora - **
 .font80[
 
 [1 - Motivação](#mot)
@@ -166,22 +166,38 @@ background-image:  url(fig/LMFTCA.png), url(fig/cont.png)
 background-position: 99% 94%
 background-size: 100px, cover
 ---
-name: ma
-## 🌳 Métodos de Amostragem
 
-.shadow1[
-### Conceito
 
-- É a forma de .blue[abordagem da população florestal] referente a .blue[uma única unidade de amostra] (ou parcela). Ou seja, o tipo de unidade amostral a ser empregada no inventário florestal. 
+
+<!-- Slide XX -->
+---
+class: inverse
+layout: false
+background-image: url(fig/deepflora.png), url(fig/sec.png)
+background-position: 99% 90%
+background-size: 350px, cover
+
+
+## .font90[**Projeto DeepFlora: <br> Inteligência Artificial para Reconhecer <br> Árvores da Amazônia**]
+### *(DeepFlora: Artificial Intelligence to Recognize Amazonian Trees)*
+
+---
+layout: true
+background-image: url(fig/deepflora.png), url(fig/cont.png)
+background-position: 95% 50%
+background-size: 400px, cover
+---
+
+## 🤔 Motivação
+
+.pull-left-3[
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/mot.png')
+```
 ]
 
----
-
-
-
 
 ---
-
 ## 📖 Referências
 
 <br><br>
