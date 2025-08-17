@@ -260,18 +260,29 @@ knitr::include_graphics('fig/mot.png')
 ---
 ## 📷 Conjunto de Imagens
 
+.pull-left-9[
 .shadow1[
 #### **Amazon Bark Dataset**
 
 - Denominação: **Amazon Bark**
-- Número de Espécies: 16
+- Número de Gêneros/Espécies/Família: 16/16/9
 - Árvores por Espécie: 10
 - Dois dispositivos:
 
-1) Câmera Canon (3024 x 4032 pixels) 
+1) Câmera Canon EOS Rebel (3024 x 4032 pixels) 
 
 2) iPhone 11 (4000 x 5328 pixels)
 
+- Distância de captura: 20 cm a 40 cm do tronco
+- Altura de captura: 0,30 m a 1,40 m do solo
+]
+]
+
+.pull-right-9[
+<br><br><br>
+```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/trio.jpg')
+```
 ]
 
 ---
@@ -281,6 +292,10 @@ knitr::include_graphics('fig/mot.png')
 #### **Amazon Bark Dataset**
 
 ]
+
+---
+## 🍃 Coletas botânicas
+
 
 ---
 ## 🌳 DeepBark - Aplicação Web
