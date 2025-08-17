@@ -184,10 +184,26 @@ background-size: 350px, cover
 ---
 layout: true
 background-image: url(fig/deepflora.png), url(fig/cont.png)
-background-position: 95% 50%
+background-position: 99% 90%
 background-size: 400px, cover
 ---
+## 🖥️Projeto DeepFlora
 
+.shadow1[
+### 🔍 **Projeto de Pesquisa, Desenvolvimento e Inovação Florestal**
+
+👉 Desenvolver um **sistema de reconhecimento automático de espécies florestais** de valor comercial madeireiro, usando **imagens digitais de partes de árvores** (cascas externa (ritidoma), alburno e forma da base de troncos) e técnicas de **aprendizado profundo** (*Deep Learning*), visando a **melhoria da acurácia na identificação de espécies** da flora Amazônica no âmbito Manejo Florestal Sustentável para fins madeireiros.
+
+]
+
+---
+## 🏫 Instituições Parceiras
+
+
+---
+## 💰 Financiador
+
+---
 ## 🤔 Motivação
 
 .pull-left-3[
@@ -196,6 +212,21 @@ knitr::include_graphics('fig/mot.png')
 ```
 ]
 
+---
+## 🌎 Áreas de Coletas
+
+
+
+---
+## 📷 Conjunto de Imagens
+
+
+---
+## 🌳 DeepBark - Aplicação Web
+
+.shadow1[
+- É uma Aplicação Web Para reconhecer Espécies Madeireiras a Partir de Imagens de Cascas (Ritidoma) de Árvores.
+]
 
 ---
 ## 📖 Referências

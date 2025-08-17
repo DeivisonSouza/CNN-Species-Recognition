@@ -2,7 +2,7 @@
  Apply it to all slides
  ************/
 
-.inverse, .hljs-github {
+.h2, .hljs-github {
   /* background-image: url("fig/sec2.png");*/ /* Change this to the url of the image you want as your background */
   background-color: #ffffff;
   background-size: cover;
@@ -248,7 +248,7 @@ div.my-footer span {
   bottom: 50px;
 }
 
-/* Change default inverse background colour */
+/* Change default h2 background colour */
 .inverse {
   background-color: #ffffff;
   color: black;
@@ -288,7 +288,7 @@ div.my-footer span {
 }
 
 
-.inverse .remark-slide-number {
+.h2 .remark-slide-number {
   display: none;
 }
 
@@ -543,6 +543,10 @@ slides > slide {
   padding-bottom: 10px;
   text-align: justify;
   text-justify: inter-word;
+  font-size: 25px;
+  font-weight: normal;
+  font-family: 'sans-serif';
+  color: black;
 }
 
 .shadow2 {
@@ -615,13 +619,13 @@ slides > slide {
 
 @page { margin: 0; }
 @media print {
-  .inverse, .segue, .segue-yellow, .segue-red, .sydney-blue,
+  .h2, .segue, .segue-yellow, .segue-red, .sydney-blue,
   .sydney-yellow, .sydney-red {
     background-color: transparent;
     color: black;
     text-shadow: none;
   }
-  .inverse h1, .inverse h2, .inverse h3, .inverse h4, .inverse h5, .segue {
+  .h2 h1, .h2 h2, .h2 h3, .h2 h4, .h2 h5, .segue {
     background-color: transparent;
     color: black;
     text-shadow: none;
