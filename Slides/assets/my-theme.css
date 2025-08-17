@@ -718,7 +718,7 @@ slides > slide {
 
 /* H2 fonts */
 .title-slide h2 {
-  color: #B52305 !important; /* first of type is master brand red */
+  color:  #B52305 !important; /* first of type is master brand red */
   font-size: 35px;
   font-family: 'sans-serif';
   font-weight: bold;

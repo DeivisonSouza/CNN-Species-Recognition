@@ -35,6 +35,7 @@ background-size: 130px, 110px, 150px, 130px, cover
 knitr::opts_chunk$set(
   fig.showtext = TRUE,
   fig.align = "center", 
+  fig.show='hold',
   cache = TRUE,
   error = FALSE,
   message = FALSE, 
@@ -199,12 +200,35 @@ background-size: 400px, cover
 ---
 ## 🏫 Instituições Parceiras
 
-```{r, echo=FALSE, out.width='20%', fig.align='center', fig.cap='', dpi=600}
+.pull-left-11[
+.pull-left-11[
+```{r ufpa, echo=FALSE, fig.show='hold', out.width='70%', fig.align='center'}
 knitr::include_graphics('fig/ufpa.png')
-knitr::include_graphics('fig/UFPR.png')
-knitr::include_graphics('fig/UFRA.png')
+```
+]
+
+.pull-right-11[
+```{r ufrrj, echo=FALSE, fig.show='hold', out.width='70%', fig.align='center'}
 knitr::include_graphics('fig/UFRRJ.png')
 ```
+]
+
+.pull-bottom[
+.pull-left-11[
+<br><br>
+```{r ufpr, echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
+knitr::include_graphics('fig/UFPR.png')
+```
+]
+
+.pull-right-11[
+```{r ufra, echo=FALSE, fig.show='hold', out.width='70%', fig.align='center'}
+knitr::include_graphics('fig/UFRA.png')
+```
+]
+]
+]
+
 
 ---
 ## 💰 Financiador
@@ -213,7 +237,7 @@ knitr::include_graphics('fig/UFRRJ.png')
 ## 🤔 Motivação
 
 .pull-left-3[
-```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/mot.png')
 ```
 ]
@@ -236,6 +260,27 @@ knitr::include_graphics('fig/mot.png')
 ---
 ## 📷 Conjunto de Imagens
 
+.shadow1[
+#### **Amazon Bark Dataset**
+
+- Denominação: **Amazon Bark**
+- Número de Espécies: 16
+- Árvores por Espécie: 10
+- Dois dispositivos:
+
+1) Câmera Canon (3024 x 4032 pixels) 
+
+2) iPhone 11 (4000 x 5328 pixels)
+
+]
+
+---
+## 📷 Conjunto de Imagens
+
+.shadow1[
+#### **Amazon Bark Dataset**
+
+]
 
 ---
 ## 🌳 DeepBark - Aplicação Web
