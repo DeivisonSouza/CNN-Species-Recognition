@@ -301,9 +301,9 @@ knitr::include_graphics('fig/mosaico.png')
 ## 🌳 Imagens de Partes da Planta
 
 
-.pull-right-9[
-```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap=''}
-knitr::include_graphics('fig/mosaico.png')
+.pull-left-9[
+```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/parkia.png')
 ```
 ]
 
