@@ -315,8 +315,11 @@ knitr::include_graphics('fig/sima.png')
 
 ---
 ## 🍃 Coletas botânicas
+<br>
 
-
+```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/bot.png')
+```
 
 
 ---
