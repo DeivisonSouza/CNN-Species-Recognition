@@ -327,6 +327,17 @@ knitr::include_graphics('fig/bot.png')
 ```
 
 ---
+## 🍃 Identificação de Espécies
+<br>
+
+```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/press.png')
+```
+
+.font80[.center[**Exsicatas foram enviadas ao Herbário Felisberto Camargo (HFC) <br> da Universidade Federal Rural da Amazônia.**]]
+
+
+---
 layout: true
 background-image: url(fig/deepflora.png), url(fig/cont.png)
 background-position: 99% 99%
