@@ -298,7 +298,7 @@ knitr::include_graphics('fig/mosaico.png')
 ]
 
 ---
-## Imagens de Partes da Planta
+## 🌳 Imagens de Partes da Planta
 
 
 .pull-right-9[
@@ -308,7 +308,13 @@ knitr::include_graphics('fig/mosaico.png')
 ]
 
 ---
-## 📷 Conjunto de Imagens de Cascas
+## 🍃 Coletas botânicas
+
+
+
+
+---
+## 📷 Amazon Bark Dataset
 
 .pull-left-9[
 .shadow1[
@@ -316,14 +322,15 @@ knitr::include_graphics('fig/mosaico.png')
 ]
 
 .shadow4[
-- Denominação: **Amazon Bark**
-- Número de Gêneros/Espécies/Família: 16/16/9
-- Árvores por Espécie: 10
+- Denominação: **Amazon Bark** (Cascas Externas)
+- Número de imagens: **2.803 imagens**
+- Número de Gêneros/Espécies/Família: **16/16/9**
+- Número de árvores por espécie: **10**
 - Dois dispositivos:
 
-1) Câmera Canon EOS Rebel (3024 x 4032 pixels) 
+1) **Câmera Canon EOS Rebel** (3024 x 4032 pixels) 
 
-2) iPhone 11 (4000 x 5328 pixels)
+2) **iPhone 11** (4000 x 5328 pixels)
 
 - Distância de captura: 20 cm a 40 cm do tronco
 - Altura de captura: 0,30 m a 1,40 m do solo
@@ -338,10 +345,12 @@ knitr::include_graphics('fig/trio.jpg')
 ]
 
 ---
-## 📷 Conjunto de Imagens
+## 📷 Amazon Bark Dataset
 
-.shadow1[
-#### **Amazon Bark Dataset**
+.pull-left-9[
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/bark.jpg')
+```
 ]
 
 
