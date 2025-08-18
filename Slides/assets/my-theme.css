@@ -540,7 +540,7 @@ slides > slide {
   padding-top: 0px;
   padding-left: 15px;
   padding-right: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   text-align: justify;
   text-justify: inter-word;
   font-size: 25px;
@@ -601,15 +601,17 @@ slides > slide {
 
 .shadow4 {
   box-shadow: 0 10px 10px rgba(28, 205, 0, 0.3);
-  margin-top: 0.1em;
-  margin-bottom: 0.2em;
+  font-size: 20px;
+  margin-top: 0em;
+  margin-bottom: 0em;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 1000px;
   border-radius: 2px;
-  padding-top: -5px;
+  padding-top: 0px;
   padding-left: 15px;
   padding-right: 10px;
+  padding-bottom: 0px;
   text-align: justify;
   text-justify: inter-word;
 }

@@ -193,14 +193,34 @@ background-size: 400px, cover
 .shadow1[
 #### 🔍 **Projeto de Pesquisa, Desenvolvimento e Inovação Florestal**
 
-👉 Desenvolver um **sistema de reconhecimento automático de espécies florestais** de valor comercial madeireiro, usando **imagens digitais de partes de árvores** (cascas externa (ritidoma), alburno e forma da base de troncos) e técnicas de **aprendizado profundo** (*Deep Learning*), visando a **melhoria da acurácia na identificação de espécies** da flora Amazônica no âmbito Manejo Florestal Sustentável para fins madeireiros.
+👉 **Objetivo**: Desenvolver um **sistema de reconhecimento automático de espécies florestais** de valor comercial madeireiro, usando **imagens digitais de partes de árvores** (cascas externa (ritidoma), alburno e forma da base de troncos) e técnicas de **aprendizado profundo** (*Deep Learning*), visando a **melhoria da acurácia na identificação de espécies** da flora Amazônica no âmbito Manejo Florestal Sustentável para fins madeireiros.
 
 ]
 
 ---
-## 🏫 Instituições Parceiras
+## 🤔 Motivação
 
+.pull-left-3[
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/mot.png')
+```
+]
+
+.pull-right-3[
+<br><br>
+.brand-red[.center[**Por que desenvolver um sistema de reconhecimento automático de espécies da flora?**]]
+]
+
+---
+## 🎯 Erros na identificação de árvores
+
+.shadow1[
+- Estudos têm reportado altas taxas de erros na identificação de espécies em PMFS na Amazônia.
+]
+
+---
 .pull-left-11[
+## 🏫 Instituições Parceiras
 .pull-left-11[
 ```{r ufpa, echo=FALSE, fig.show='hold', out.width='70%', fig.align='center'}
 knitr::include_graphics('fig/ufpa.png')
@@ -229,41 +249,73 @@ knitr::include_graphics('fig/UFRA.png')
 ]
 ]
 
-
----
-## 💰 Financiador
-
----
-## 🤔 Motivação
-
-.pull-left-3[
-```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap=''}
-knitr::include_graphics('fig/mot.png')
+.pull-right-11[
+## .center[💰 Financiador]
+```{r cipem, echo=FALSE, fig.show='hold', out.width='50%', fig.align='center'}
+knitr::include_graphics('fig/CIPEM.png')
 ```
 ]
 
 ---
 ## 🌎 Áreas de Coletas
 
+.pull-left-9[
 .shadow1[
 #### 🔍 **Áreas de Manejo Florestal (AMFs)**
+]
 
+.shadow4[
 👉  3 AMFs para fins madeireiro no Estado do Mato Grosso:
 
-1 - Fazenda Pérola (Nova Maringá)
-
-2 - Fazenda Boa Esperança (Feliz Natal)
-
-3 - Fazenda São Nicolau (Cotriguaçu)
+- Fazenda Pérola (Nova Maringá)
+- Fazenda Boa Esperança (Feliz Natal)
+- Fazenda São Nicolau (Cotriguaçu)
+]
 ]
 
 ---
-## 📷 Conjunto de Imagens
+## Variáveis coletadas
+
+.pull-left-9[
+.shadow1[
+#### 📝 **Variáveis coletadas**
+]
+
+.shadow4[
+- Imagens da planta: Casca externa, alburno e forma da base do tronco
+- Coordenadas Geográficas
+- Diâmetro a 1,30 m do solo
+- Altura (clinômetro Haglof)
+- Espessura da casca
+- Escalada de árvores e coleta de material botânico
+]
+]
+
+.pull-right-9[
+```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/mosaico.png')
+```
+]
+
+---
+## Imagens de Partes da Planta
+
+
+.pull-right-9[
+```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/mosaico.png')
+```
+]
+
+---
+## 📷 Conjunto de Imagens de Cascas
 
 .pull-left-9[
 .shadow1[
 #### **Amazon Bark Dataset**
+]
 
+.shadow4[
 - Denominação: **Amazon Bark**
 - Número de Gêneros/Espécies/Família: 16/16/9
 - Árvores por Espécie: 10
@@ -290,8 +342,9 @@ knitr::include_graphics('fig/trio.jpg')
 
 .shadow1[
 #### **Amazon Bark Dataset**
-
 ]
+
+
 
 ---
 ## 🍃 Coletas botânicas
