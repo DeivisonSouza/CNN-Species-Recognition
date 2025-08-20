@@ -1,5 +1,5 @@
 ---
-title: "Redes Neurais Convolucionais (RNCs): Reconhecendo Espécies de Plantas a partir de Imagens"
+title: "Reconhecendo Espécies de Plantas Usando Redes Neurais Convolucionais (RNCs)"
 #title: "Convolutional Neural Networks (CNNs): Recognizing Plant Species from Images"
 subtitle: "Técnicas, Aplicações"
 author: "Prof. Dr. Deivison Venicio Souza"
@@ -67,8 +67,8 @@ library(ggimage)
 ##### Programa de Pós-Graduação em Biodiversidade e Conservação (PPGBC)/UFPA
 ##### Programa de Pós-Graduação em Ciência, Tecnologia e Inovação Florestal (PPGCTIF)/UFOPA
 
-## Redes Neurais Convolucionais (RNCs): Reconhecendo Espécies de Plantas Usando Recursos de Imagens
-### (*Convolutional Neural Networks (CNNs): Recognizing Plant Species Using Image Features*)
+## Reconhecendo Espécies de Plantas Usando Redes Neurais Convolucionais (RNCs)
+### *Recognizing Plant Species Using Convolutional Neural Networks (CNNs)*
 <br>
 `r anicon::faa("pagelines", animate="horizontal", colour="green", size = 2)`
 `r anicon::faa("tree", animate="float", colour="green", size = 2)`
@@ -212,10 +212,68 @@ knitr::include_graphics('fig/mot.png')
 ]
 
 ---
-## 🎯 Erros na identificação de árvores
+## 🤔 Motivação
 
 .shadow1[
-- Estudos têm reportado altas taxas de erros na identificação de espécies em PMFS na Amazônia.
+👉 **Instrução Normativa 28, de 11 de dezembro de 2024/IBAMA**
+.font80[
+Estabelece os procedimentos relativos às atividades de **Manejo Florestal Sustentável das espécies** listadas no **Anexo II** da Convenção sobre o Comércio Internacional das Espécies da Flora e Fauna Selvagens em Perigo de Extinção - **CITES**, dos gêneros .blue[*Handroanthus, Tabebuia, Dipteryx e Cedrela*], por recomendação do Parecer de Extração Não Prejudicial; e as regras de transição para autorização de exportação de produtos e subprodutos madeireiros desses gêneros oriundos de florestas nativas do bioma amazônico.
+]
+]
+
+<br>
+
+.pull-left-4[
+.font80[
+| Gênero         | FOA/FE/S/C |     | FOD |     |
+|--------------  |------------|-----|-----|-----|
+|                | DMC        | IME | DMC | IME |
+| *Handroanthus* | 60         | 70  | 70  | 70  |
+| *Tabebuia*     | 60         | 70  | 70  | 70  |
+| *Dipteryx*     | 60         | 75  | 80  | 75  |
+| *Cedrela*      | 55         | 70  | 70  | 50  |
+]
+]
+
+.pull-right-4[
+.font80[
+FOA = Floresta Ombrófila Aberta/FE = Floresta Estacional/S = Savana/C = Campinarana
+
+FOD = Floresta Ombrófila Densa
+
+DMC = Diâmetro Mínimo de Corte, em cm
+
+IME = Intensidade Máxima de Exploração, em %
+]
+]
+
+
+---
+## 🤔 Motivação
+
+.pull-left-3[
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/IN28.png')
+```
+]
+
+.pull-right-3[
+<br><br>
+.center[**Art. 12.** A identificação das espécies descritas deverá ser realizada no âmbito do POA, utilizando uma das metodologias a seguir:]
+]
+
+---
+## 🎯 Erros na identificação de árvores
+
+
+.pull-right-3[
+<br><br><br>
+.brand-red[.center[**Altas taxas de erros de identificação de espécies em PMFS na Amazônia...**]]
+]
+
+.pull-left-3[
+- Lacerda e Nimmo (2010): 43,5% (132 espécies) das espécies identificadas por descrição botânica, não constavam na identificação
+realizada no censo florestal (Em campo). Comparar nomes vernaculares com nomes científicos provou ser severamente deficiente.
 ]
 
 ---
@@ -413,7 +471,7 @@ Quais espécies
 ## 📖 Referências
 
 <br><br>
-CAMPOS, J. C. C.; LEITE, H. G. **Mensuração florestal: perguntas e respostas**. 3ª ed. - Viçosa, MG: Ed. UFV, 2009. 548 p.
+LACERDA, A. E. B.; NIMMO, E. R. Can we really manage tropical forests without knowing the species within? getting back to the basics of forest management through taxonomy. Forest Ecology and Management, Elsevier, v. 259, n. 5, p. 995–1002, 2010.
 
 ---
 
