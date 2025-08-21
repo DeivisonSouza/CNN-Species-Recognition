@@ -1,6 +1,6 @@
 ---
-title: "Reconhecendo Espécies de Plantas Usando Redes Neurais Convolucionais (RNCs)"
-#title: "Convolutional Neural Networks (CNNs): Recognizing Plant Species from Images"
+title: "Reconhecimento de Espécies de Plantas Usando Recursos de Imagens: Um enfoque nas Redes Neurais Convolucionais (RNCs)"
+#title: "Plant Species Recognition Using Image Features: A Focus on Convolutional Neural Networks (CNNs)"
 subtitle: "Técnicas, Aplicações"
 author: "Prof. Dr. Deivison Venicio Souza"
 institute: "Universidade Federal do Pará (UFPA)"
@@ -67,8 +67,8 @@ library(ggimage)
 ##### Programa de Pós-Graduação em Biodiversidade e Conservação (PPGBC)/UFPA
 ##### Programa de Pós-Graduação em Ciência, Tecnologia e Inovação Florestal (PPGCTIF)/UFOPA
 
-## Reconhecendo Espécies de Plantas Usando Redes Neurais Convolucionais (RNCs)
-### *Recognizing Plant Species Using Convolutional Neural Networks (CNNs)*
+## Reconhecimento de Espécies de Plantas Usando Recursos de Imagens: Um enfoque nas Redes Neurais Convolucionais (RNCs)
+### *Plant Species Recognition Using Image Features: A Focus on Convolutional Neural Networks (CNNs)*
 <br>
 `r anicon::faa("pagelines", animate="horizontal", colour="green", size = 2)`
 `r anicon::faa("tree", animate="float", colour="green", size = 2)`
@@ -198,19 +198,48 @@ background-size: 400px, cover
 ]
 
 ---
+layout: true
+background-image: url(fig/deepflora.png), url(fig/cont.png)
+background-position: 5% 95%
+background-size: 400px, cover
+---
 ## 🤔 Motivação
 
-.pull-left-3[
+.pull-left-5[
+<br><br>
+.brand-red[.center[**Por que desenvolver um sistema de reconhecimento automático de espécies da flora?**]]
+]
+
+--
+
+.pull-right-5[
 ```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/mot.png')
 ```
 ]
 
-.pull-right-3[
+---
+## 🤔 Motivação
+
+
+.pull-left-5[
 <br><br>
-.brand-red[.center[**Por que desenvolver um sistema de reconhecimento automático de espécies da flora?**]]
+.brand-red[.center[**Estudos reportaram altas taxas de erros de identificação de espécies em PMFS na Amazônia brasileira...**]]
 ]
 
+--
+
+.pull-right-5[
+```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/estudo.png')
+```
+]
+
+---
+layout: true
+background-image: url(fig/deepflora.png), url(fig/cont.png)
+background-position: 99% 99%
+background-size: 400px, cover
 ---
 ## 🤔 Motivação
 
@@ -247,7 +276,6 @@ IME = Intensidade Máxima de Exploração, em %
 ]
 ]
 
-
 ---
 ## 🤔 Motivação
 
@@ -260,20 +288,6 @@ knitr::include_graphics('fig/IN28.png')
 .pull-right-3[
 <br><br>
 .center[**Art. 12.** A identificação das espécies descritas deverá ser realizada no âmbito do POA, utilizando uma das metodologias a seguir:]
-]
-
----
-## 🎯 Erros na identificação de árvores
-
-
-.pull-right-3[
-<br><br><br>
-.brand-red[.center[**Altas taxas de erros de identificação de espécies em PMFS na Amazônia...**]]
-]
-
-.pull-left-3[
-- Lacerda e Nimmo (2010): 43,5% (132 espécies) das espécies identificadas por descrição botânica, não constavam na identificação
-realizada no censo florestal (Em campo). Comparar nomes vernaculares com nomes científicos provou ser severamente deficiente.
 ]
 
 ---

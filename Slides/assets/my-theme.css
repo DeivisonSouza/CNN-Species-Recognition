@@ -705,7 +705,7 @@ slides > slide {
 /* H1 fonts */
 .title-slide h1 {
   color: black; /* first of type is master brand red */
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   padding-top: 30px;
   padding-left: 0px;
@@ -721,7 +721,7 @@ slides > slide {
 /* H2 fonts */
 .title-slide h2 {
   color:  #B52305 !important; /* first of type is master brand red */
-  font-size: 35px;
+  font-size: 30px;
   font-family: 'sans-serif';
   font-weight: bold;
   padding-top: 30px;
@@ -736,7 +736,7 @@ slides > slide {
 
 /* H3 fonts */
 .title-slide h3 {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: normal;
   font-family: 'sans-serif';
   color: #00cc00;
