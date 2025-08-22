@@ -210,6 +210,12 @@ background-size: 400px, cover
 
 ]
 
+<br>
+
+.shadow3[Desenvolver um **sistema baseado em IA e Visão Computacional** que possa servir como **ferramenta auxiliar na identificação de árvores** no MFS para fins de exploração madeireira
+]
+
+
 ---
 ## 🏫 Instituições Parceiras e Financiador
 
@@ -517,7 +523,6 @@ background-size: 400px, cover
 - É uma **Aplicação Web** para reconhecer **16 espécies** da flora Amazônica de valor comercial madeireiro, baseado em **imagens digitais de cascas externas** (Ritidoma).
 
 Sobre o modelo:
-Quais espécies
 
 
 ]
