@@ -143,8 +143,23 @@ background-size: 100px, cover
 👉 **Parte 3 - Projeto DeepFlora - **
 .font80[
 
-[1 - Motivação](#mot)
+[1 - Projeto DeepFlora](#mot)
 
+[2 - Instituições Parceiras e Financiador](#ins)
+
+[3 - Motivação](#mot)
+
+[4 - Áreas de Coleta](#ac)
+
+[5 - Variáveis coletadas](#ac)
+
+[6 - Imagens de Partes da Planta](#img)
+
+[7 - Identificação de Espécies](#ide)
+
+[8 - Amazon Bark Dataset](#abd)
+
+[9 - DeepBark - Aplicação Web](#dee)
 
 ]
 ]
@@ -198,8 +213,9 @@ background-size: 400px, cover
 ]
 
 ---
+## 🏫 Instituições Parceiras e Financiador
+
 .pull-left-11[
-## 🏫 Instituições Parceiras
 .pull-left-11[
 ```{r ufpa, echo=FALSE, fig.show='hold', out.width='70%', fig.align='center'}
 knitr::include_graphics('fig/ufpa.png')
@@ -228,8 +244,9 @@ knitr::include_graphics('fig/UFRA.png')
 ]
 ]
 
-.pull-right-11[
+
 ## .center[💰 Financiador]
+.pull-right-11[
 ```{r cipem, echo=FALSE, fig.show='hold', out.width='50%', fig.align='center'}
 knitr::include_graphics('fig/CIPEM.png')
 ```
@@ -300,7 +317,7 @@ background-size: 400px, cover
 .shadow1[
 👉 **Instrução Normativa 28, de 11 de dezembro de 2024/IBAMA**
 .font80[
-Estabelece os procedimentos relativos às atividades de **Manejo Florestal Sustentável das espécies** listadas no **Anexo II** da Convenção sobre o Comércio Internacional das Espécies da Flora e Fauna Selvagens em Perigo de Extinção - **CITES**, dos gêneros .blue[*Handroanthus, Tabebuia, Dipteryx e Cedrela*], por recomendação do Parecer de Extração Não Prejudicial; e as regras de transição para autorização de exportação de produtos e subprodutos madeireiros desses gêneros oriundos de florestas nativas do bioma amazônico.
+Estabelece os procedimentos relativos às atividades de **Manejo Florestal Sustentável das espécies** listadas no **Anexo II** da Convenção sobre o Comércio Internacional das Espécies da Flora e Fauna Selvagens em Perigo de Extinção - **CITES**, dos gêneros .blue[*Handroanthus, Tabebuia, Dipteryx e Cedrela*], por recomendação do Parecer de Extração Não Prejudicial; e as regras de transição para autorização de exportação de produtos e subprodutos madeireiros desses gêneros oriundos de florestas nativas do bioma amazônico. 
 ]
 ]
 
@@ -315,6 +332,9 @@ Estabelece os procedimentos relativos às atividades de **Manejo Florestal Suste
 | *Tabebuia*     | 60         | 70  | 70  | 70  |
 | *Dipteryx*     | 60         | 75  | 80  | 75  |
 | *Cedrela*      | 55         | 70  | 70  | 50  |
+
+<br>
+.font70[Acesse aqui: [Instrução Normativa 28, de 11 de dezembro de 2024/IBAMA](https://www.ibama.gov.br/component/legislacao/?view=legislacao&legislacao=139446)]
 ]
 ]
 
@@ -329,6 +349,8 @@ DMC = Diâmetro Mínimo de Corte, em cm
 IME = Intensidade Máxima de Exploração, em %
 ]
 ]
+
+
 
 ---
 ## 🤔 Motivação
@@ -347,19 +369,9 @@ knitr::include_graphics('fig/IN28.png')
 ---
 ## 🌎 Áreas de Coletas
 
-.pull-left-9[
-.shadow1[
-#### 🔍 **Áreas de Manejo Florestal (AMFs)**
-]
-
-.shadow4[
-👉  3 AMFs para fins madeireiro no Estado do Mato Grosso:
-
-- Fazenda Pérola (Nova Maringá)
-- Fazenda Boa Esperança (Feliz Natal)
-- Fazenda São Nicolau (Cotriguaçu)
-]
-]
+```{r, echo=FALSE, out.width='50%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/map.png')
+```
 
 ---
 ## Variáveis coletadas
