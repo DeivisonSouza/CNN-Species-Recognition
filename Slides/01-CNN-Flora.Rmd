@@ -457,7 +457,6 @@ knitr::include_graphics('fig/press.png')
 
 .font80[.center[**Exsicatas foram enviadas ao Herbário Felisberto Camargo (HFC) <br> da Universidade Federal Rural da Amazônia.**]]
 
-
 ---
 layout: true
 background-image: url(fig/deepflora.png), url(fig/cont.png)
@@ -466,13 +465,22 @@ background-size: 400px, cover
 ---
 ## 🍃 Rotulação de imagens
 
-.shadow1[
-#### Importância da identificação de espécies para a correta rotulação de imagens
+.pull-left-4[
+#### .center[🤔 Importância da identificação de espécies para a correta rotulação de imagens]
 
-👉 **Rotulação de imagens**: Processo de anotar e classificar o conteúdo de imagens para, posteriormente, treinar modelos baseados em técnicas de visão computacional. 
-
-.center[.blue[A qualidade da rotulação de imagens afeta diretamente a acurácia do modelo.]]
+.font80[
+👉 **Rotulação de imagens**: Processo de anotar e classificar o conteúdo de imagens para, posteriormente, treinar modelos baseados em técnicas de visão computacional.]
 <br>
+
+.center[.blue[A qualidade da rotulação de imagens afeta diretamente a acurácia do modelo!]]
+
+]
+
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/comp.png')
+```
 ]
 
 ---
