@@ -108,7 +108,7 @@ background-size: 100px, cover
 
 &nbsp;&nbsp;[3.3 - Redes Neurais Convolucionais Pré-Treinadas](#TA)
 
-&nbsp;&nbsp;[3.4 -Bibliotecas (keras, Tensorflow)](#TA)
+&nbsp;&nbsp;[3.4 - Bibliotecas (keras, Tensorflow)](#TA)
 
 [3 - Métodos de Reamostragem](#rea) 
 
@@ -156,9 +156,11 @@ background-size: 600px, cover
 
 [7 - Identificação de Espécies](#ide)
 
-[8 - Amazon Bark Dataset](#abd)
+[8 - Rotulação de imagens](#rot)
 
-[9 - DeepBark - Aplicação Web](#dee)
+[9 - Amazon Bark Dataset](#abd)
+
+[10 - DeepBark - Aplicação Web](#dee)
 
 ]
 ]
@@ -181,8 +183,6 @@ background-position: 99% 94%
 background-size: 100px, cover
 ---
 
-
-
 <!-- Slide XX -->
 ---
 class: inverse
@@ -190,7 +190,6 @@ layout: false
 background-image: url(fig/deepflora.png), url(fig/sec.png)
 background-position: 99% 90%
 background-size: 350px, cover
-
 
 ## .font90[**Projeto DeepFlora: <br> Inteligência Artificial para Reconhecer <br> Árvores da Amazônia**]
 ### *(DeepFlora: Artificial Intelligence to Recognize Amazonian Trees)*
@@ -376,6 +375,13 @@ knitr::include_graphics('fig/IN28.png')
 ]
 
 ---
+## 🌎 Sistemas de reconhecimento automático
+
+```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/sist.png')
+```
+
+---
 layout: true
 background-image: url(fig/deepflora.png), url(fig/cont.png)
 background-position: 99% 99%
@@ -451,11 +457,24 @@ knitr::include_graphics('fig/press.png')
 
 .font80[.center[**Exsicatas foram enviadas ao Herbário Felisberto Camargo (HFC) <br> da Universidade Federal Rural da Amazônia.**]]
 
+
 ---
 layout: true
 background-image: url(fig/deepflora.png), url(fig/cont.png)
 background-position: 99% 99%
 background-size: 400px, cover
+---
+## 🍃 Rotulação de imagens
+
+.shadow1[
+#### Importância da identificação de espécies para a correta rotulação de imagens
+
+👉 **Rotulação de imagens**: Processo de anotar e classificar o conteúdo de imagens para, posteriormente, treinar modelos baseados em técnicas de visão computacional. 
+
+.center[.blue[A qualidade da rotulação de imagens afeta diretamente a acurácia do modelo.]]
+<br>
+]
+
 ---
 ## 📷 Amazon Bark Dataset
 
