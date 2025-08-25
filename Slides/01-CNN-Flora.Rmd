@@ -585,7 +585,12 @@ knitr::include_graphics('fig/deepbark.png')
 .center[**Acurácia**: .blue[95%] (de cada 100 imagens acerta 95)]
 
 ---
-## 🌳 DeepBark - Limitações e Desafios
+## 🌳 DeepBark - Dificuldades de campo
+
+
+
+---
+## 🌳 DeepBark - Limitações e Desafios Futuros
 
 
 
