@@ -478,8 +478,9 @@ background-size: 400px, cover
 
 
 .pull-right-4[
-```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap=''}
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/comp.png')
+knitr::include_graphics('fig/comp2.png')
 ```
 ]
 
