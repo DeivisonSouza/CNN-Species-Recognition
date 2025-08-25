@@ -571,23 +571,18 @@ background-size: 400px, cover
 ]
 
 ---
+layout: true
+background-image: url(fig/deepflora2.png), url(fig/cont.png)
+background-position: 98% 50%
+background-size: 200px, cover
+---
 ## 🌳 DeepBark - Aplicação Web
+<br>
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/deepbark.png')
+```
 
-.shadow1[
-#### **DeepBark - IA para Reconhecer Árvores a partir de Imagens de Cascas**
-]
-
-.shadow3[
-.font80[
-- **Sistema de reconhecimento**: Rede pré-treinada ResNet50 como extrator de recursos (*features*) + Classificador SVC
-- **Acurácia**: 95% (de cada 100 imagens acerta 95)
-- **Entrada**: Imagens digitais de cascas externas de árvores
-]
-]
-
-
-
-
+.center[**Acurácia**: .blue[95%] (de cada 100 imagens acerta 95)]
 
 ---
 ## 🌳 DeepBark - Limitações e Desafios
