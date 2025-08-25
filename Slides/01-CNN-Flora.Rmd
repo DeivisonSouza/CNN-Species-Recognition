@@ -520,10 +520,10 @@ knitr::include_graphics('fig/trio.jpg')
 ## 📷 Amazon Bark Dataset
 <br>
 
-```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap=''}
+```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/treebark.png')
 ```
-
+.font80[**Fonte**: Gama, 2024]
 
 ---
 layout: true
