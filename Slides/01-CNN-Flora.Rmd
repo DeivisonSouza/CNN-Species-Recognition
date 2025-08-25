@@ -578,20 +578,21 @@ background-size: 200px, cover
 ---
 ## 🌳 DeepBark - Aplicação Web
 <br>
-```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap=''}
+```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/deepbark.png')
 ```
 
-.center[**Acurácia**: .blue[95%] (de cada 100 imagens acerta 95)]
-
----
-## 🌳 DeepBark - Dificuldades de campo
-
-
+.center[.font80[**Acurácia**: .blue[95%] (de cada 100 imagens acerta 95)]]
 
 ---
 ## 🌳 DeepBark - Limitações e Desafios Futuros
+<br>
+```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/lim.png')
+```
 
+---
+## 🌳 DeepBark - Dificuldades de campo
 
 
 
