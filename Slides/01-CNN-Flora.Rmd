@@ -184,8 +184,18 @@ background-image:  url(fig/LMFTCA.png), url(fig/cont.png)
 background-position: 99% 94%
 background-size: 100px, cover
 ---
+## Pesquisas com reconhecimento de espécies usando CNN
+
+
+Natally
+
+
+---
 ## 🪵 Reconhecendo Espécies: .orange[Imagens de Madeiras]
 
+```{r , echo=FALSE, fig.show='hold', out.width='85%', fig.align='center'}
+knitr::include_graphics('fig/test.png')
+```
 
 ---
 ## 🪵 Reconhecendo Espécies: .orange[Imagens de Cascas]
