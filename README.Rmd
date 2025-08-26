@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 library(magrittr)
-repo <- "ML-Mensuracao-Florestal"
+repo <- "CNN-Species-Recognition"
 ```
 
 <!-- Emprestei a função list_github_files() da Curso-R. (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente!-->
