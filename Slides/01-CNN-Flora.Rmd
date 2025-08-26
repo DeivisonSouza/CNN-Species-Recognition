@@ -611,12 +611,6 @@ knitr::include_graphics('fig/lim.png')
 ```
 ]
 
-
----
-## 🌳 DeepBark - Considerações finais
-
-
-
 ---
 ## 📖 Referências
 

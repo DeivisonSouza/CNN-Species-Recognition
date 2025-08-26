@@ -15,38 +15,37 @@
 
 <div>
 
-<img src="docs/fig/ufpa.png" width="150" align="middle" class="center">
-<img src="docs/fig/LMFTCA.png" width="150" align="middle" class="center">
+<img src="Slides/fig/ufpa.png" width="150" align="middle" class="center">
+<img src="Slides/fig/LMFTCA.png" width="150" align="middle" class="center">
 
 <div>
 
-<div itemscope="" itemtype="https://schema.org/Person">
+<br>
 
-<a itemprop="sameAs" content="https://orcid.org/0000-0002-2975-0927" href="https://orcid.org/0000-0002-2975-0927" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0002-2975-0927</a>
-
-</div>
-
-**Lattes**: <http://lattes.cnpq.br/9063094443073532>
-
-**Researchgate**: <https://www.researchgate.net/profile/Deivison-Souza>
+🌍 [LMFTCA](https://www.lmftca.com.br/) 💻
+[GitHub](https://github.com/DeivisonSouza) 🆔
+[ORCID](https://orcid.org/0000-0002-2975-0927) 🔎
+[Lattes](http://lattes.cnpq.br/9063094443073532) 🧑🏻‍🔬
+[Researchgate](https://www.researchgate.net/profile/Deivison-Souza)
+📱+55 (41) 995266886
 
 ------------------------------------------------------------------------
 
 # Descrição
 
-Este repositório guarda os arquivos .Rmd e .R usados na palestra
-intitulada **“Redes Neurais Convolucionais (RNCs): Reconhecendo Espécies
-de Plantas Usando Recursos de Imagens”** ministrada pelo
-**Prof. Dr. Deivison Venicio Souza** para discentes de graduação em
-Engenharia Florestal e do Programa de Pós-Graduação em Engenharia
-Florestal da Universidade Federal do Paraná (UFPR) a convite da **Profa.
-Ana Paula Dalla Corte**.
+Este repositório guarda os arquivos (.Rmd, .R, .html) usados na palestra
+intitulada **“Reconhecimento de Espécies de Plantas Usando Recursos de
+Imagens: Um enfoque nas Redes Neurais Convolucionais (RNCs)”**
+ministrada pelo **Prof. Dr. Deivison Venicio Souza** para discentes de
+graduação em Engenharia Florestal e do Programa de Pós-Graduação em
+Engenharia Florestal da Universidade Federal do Paraná (UFPR) a convite
+da **Profa. Ana Paula Dalla Corte**.
 
 # Slide da palestra
 
-O slide da palestra síncrona intitulada **“Redes Neurais Convolucionais
-(RNCs): Reconhecendo Espécies de Plantas Usando Recursos de Imagens”**
-está disponível a seguir.
+O slide da palestra síncrona intitulada **“Reconhecimento de Espécies de
+Plantas Usando Recursos de Imagens: Um enfoque nas Redes Neurais
+Convolucionais (RNCs)”** está disponível a seguir.
 
 | Slide | Link |
 |:---|:---|
