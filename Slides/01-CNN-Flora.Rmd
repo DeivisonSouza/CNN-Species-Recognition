@@ -577,28 +577,33 @@ background-position: 98% 50%
 background-size: 200px, cover
 ---
 ## 🌳 DeepBark - Aplicação Web
-<br>
-```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap=''}
+
+.pull-left-16[
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/deepbark.png')
 ```
 
 .center[.font80[**Acurácia**: .blue[95%] (de cada 100 imagens acerta 95)]]
+]
 
 ---
-## 🌳 DeepBark - Limitações e Desafios Futuros
-<br>
-```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap=''}
+## 🌳 DeepBark - Considerações finais
+
+.pull-left-16[
+```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/lim.png')
 ```
+]
 
 ---
-## 🌳 DeepBark - Dificuldades de campo
+## 🌳 DeepBark - Considerações finais
 
 
 
 ---
 ## 📖 Referências
 
+.pull-left-16[
 .font80[
 <br>
 LACERDA, A. E. B.; NIMMO, E. R. Can we really manage tropical forests without knowing the species within? getting back to the basics of forest management through taxonomy. Forest Ecology and Management, Elsevier, v. 259, n. 5, p. 995–1002, 2010.
@@ -606,6 +611,7 @@ LACERDA, A. E. B.; NIMMO, E. R. Can we really manage tropical forests without kn
 PROCÓPIO, L. C.; SECCO, R. S. A importância da identificação botânica nos inventários florestais: o exemplo do "tauari" (*Couratari* spp. e *Cariniana* spp.- Lecythidaceae) em duas áreas manejadas no estado do Pará. Acta amazônica, v. 38, p. 31-44, 2008.
 <br><br>
 GAMA, N. C. **Reconhecimento automático de espécies florestais amazônicas a partir de imagens de cascas baseado em padrões binários locais e aprendizado profundo**. 2024. Dissertação (Mestrado em Biodiversidade e Conservação) – Universidade Federal do Pará, Altamira, 2024. Disponível em: [Link](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://ppgbc.propesp.ufpa.br/ARQUIVOS/dissertacoes/2024/Natally_Celestino_07.06.24.pdf). Acesso em: 25 ago. 2025. 
+]
 ]
 
 ---
