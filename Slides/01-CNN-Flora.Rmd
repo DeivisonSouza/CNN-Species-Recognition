@@ -576,7 +576,7 @@ background-image: url(fig/deepflora2.png), url(fig/cont.png)
 background-position: 98% 50%
 background-size: 200px, cover
 ---
-## 🌳 DeepBark - Aplicação Web
+## 🌳 DeepBark - Aplicação Web (Modelo)
 
 .pull-left-16[
 ```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap=''}
@@ -587,13 +587,20 @@ knitr::include_graphics('fig/deepbark.png')
 ]
 
 ---
-## 🌳 DeepBark - Aplicação Web
+## 🌳 DeepBark - Aplicação Web (Interface)
+
+.pull-left-16[
+```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/inter.png')
+```
+]
+
+---
+## 🌳 DeepBark - Aplicação Web (Funcionamento)
 
 .center[
 <iframe width="760" height="515" src="https://www.youtube.com/embed/a6-HWc7GDJw?si=9zpwC3DdqiFdghzn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ]
-
-
 
 ---
 ## 🌳 DeepBark - Considerações finais
@@ -603,11 +610,6 @@ knitr::include_graphics('fig/deepbark.png')
 knitr::include_graphics('fig/lim.png')
 ```
 ]
-
----
-## 🌳 DeepBark - 
-
-
 
 ---
 ## 📖 Referências
