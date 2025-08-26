@@ -36,19 +36,21 @@
 
 Este repositório guarda os arquivos .Rmd e .R usados na palestra
 intitulada **“Redes Neurais Convolucionais (RNCs): Reconhecendo Espécies
-de Plantas a partir de Imagens”** ministrada pelo **Prof. Dr. Deivison
-Venicio Souza** para discentes de graduação em Engenharia Florestal e do
-Programa de Pós-Graduação em Engenharia Florestal da Universidade
-Federal do Paraná (UFPR) a convite da **Profa. Ana Paula Dalla Corte**.
+de Plantas Usando Recursos de Imagens”** ministrada pelo
+**Prof. Dr. Deivison Venicio Souza** para discentes de graduação em
+Engenharia Florestal e do Programa de Pós-Graduação em Engenharia
+Florestal da Universidade Federal do Paraná (UFPR) a convite da **Profa.
+Ana Paula Dalla Corte**.
 
 # Slide da palestra
 
 O slide da palestra síncrona intitulada **“Redes Neurais Convolucionais
-(RNCs): Reconhecendo Espécies de Plantas a partir de Imagens”** está
-disponível a seguir.
+(RNCs): Reconhecendo Espécies de Plantas Usando Recursos de Imagens”**
+está disponível a seguir.
 
 | Slide | Link |
-|:------|:-----|
+|:---|:---|
+| Slides/01-CNN-Flora.html | <https://deivisonsouza.github.io/CNN-Species-Recognition/Slides/01-CNN-Flora.html> |
 
 # Facilitador :deciduous_tree:
 
