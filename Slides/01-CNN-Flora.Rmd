@@ -194,7 +194,7 @@ Natally
 ## 🪵 Reconhecendo Espécies: .orange[Imagens de Madeiras]
 
 ```{r , echo=FALSE, fig.show='hold', out.width='85%', fig.align='center'}
-knitr::include_graphics('fig/test.png')
+knitr::include_graphics('fig/wood.png')
 ```
 
 ---
