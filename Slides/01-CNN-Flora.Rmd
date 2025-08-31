@@ -193,9 +193,34 @@ Natally
 ---
 ## 🪵 Reconhecendo Espécies: .orange[Imagens de Madeiras]
 
-```{r , echo=FALSE, fig.show='hold', out.width='85%', fig.align='center'}
-knitr::include_graphics('fig/wood.png')
+```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
+knitr::include_graphics('fig/wood1.png')
 ```
+.font80[**Fonte**: O Autor.]
+
+---
+## 🪵 Reconhecendo Espécies: .orange[Imagens de Madeiras]
+
+```{r , echo=FALSE, fig.show='hold', out.width='85%', fig.align='center'}
+knitr::include_graphics('fig/wood2.png')
+```
+.font80[**Fonte**: O Autor.]
+
+---
+## 🪵 Reconhecendo Espécies: .orange[Imagens de Madeiras]
+
+```{r , echo=FALSE, fig.show='hold', out.width='85%', fig.align='center'}
+knitr::include_graphics('fig/wood3.png')
+```
+.font80[**Fonte**: O Autor.]
+
+---
+## 🪵 Reconhecendo Espécies: .orange[Imagens de Madeiras]
+
+```{r , echo=FALSE, fig.show='hold', out.width='85%', fig.align='center'}
+knitr::include_graphics('fig/wood4.png')
+```
+.font80[**Fonte**: O Autor.]
 
 ---
 ## 🪵 Reconhecendo Espécies: .orange[Imagens de Cascas]
