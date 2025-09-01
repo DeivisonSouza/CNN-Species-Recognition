@@ -184,11 +184,12 @@ background-image:  url(fig/LMFTCA.png), url(fig/cont.png)
 background-position: 99% 94%
 background-size: 100px, cover
 ---
-## Aplicações de CNN nas Ciênciais Florestais
+## 🔍 Aplicações de CNN nas Ciênciais Florestais
 
-
-
-
+```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
+knitr::include_graphics('fig/appcf.png')
+```
+.font80[**Fonte**: O Autor.]
 
 ---
 ## 🪵 .font80[Reconhecimento baseado em .orange[Imagens de Madeiras]...]
