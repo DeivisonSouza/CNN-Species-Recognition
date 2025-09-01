@@ -176,7 +176,7 @@ background-size: cover
 
 
 ## **CNNs no Reconhecimento de <br> Espécies de Plantas:**
-### (Madeira, Folha, Casca, Flor, Fruto e Sementes)
+### (Madeira, Folha, Casca, Flor e Sementes)
 
 ---
 layout: true
@@ -184,14 +184,14 @@ background-image:  url(fig/LMFTCA.png), url(fig/cont.png)
 background-position: 99% 94%
 background-size: 100px, cover
 ---
-## Pesquisas com reconhecimento de espécies usando CNN
+## Aplicações de CNN nas Ciênciais Florestais
 
 
-Natally
+
 
 
 ---
-## 🪵 Reconhecendo Espécies: .orange[Imagens de Madeiras]
+## 🪵 .font80[Reconhecimento baseado em .orange[Imagens de Madeiras]...]
 
 ```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
 knitr::include_graphics('fig/wood1.png')
@@ -199,38 +199,38 @@ knitr::include_graphics('fig/wood1.png')
 .font80[**Fonte**: O Autor.]
 
 ---
-## 🪵 Reconhecendo Espécies: .orange[Imagens de Madeiras]
+## 🪵 .font80[Reconhecimento baseado em .orange[Imagens de Madeiras]...]
 
-```{r , echo=FALSE, fig.show='hold', out.width='85%', fig.align='center'}
+```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
 knitr::include_graphics('fig/wood2.png')
 ```
 .font80[**Fonte**: O Autor.]
 
 ---
-## 🪵 Reconhecendo Espécies: .orange[Imagens de Madeiras]
+## 🪵 .font80[Reconhecimento baseado em .orange[Imagens de Madeiras]...]
 
-```{r , echo=FALSE, fig.show='hold', out.width='85%', fig.align='center'}
+```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
 knitr::include_graphics('fig/wood3.png')
 ```
 .font80[**Fonte**: O Autor.]
 
 ---
-## 🪵 Reconhecendo Espécies: .orange[Imagens de Madeiras]
+## 🪵 .font80[Reconhecimento baseado em .orange[Imagens de Madeiras]...]
 
-```{r , echo=FALSE, fig.show='hold', out.width='85%', fig.align='center'}
+```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
 knitr::include_graphics('fig/wood4.png')
 ```
 .font80[**Fonte**: O Autor.]
 
 ---
-## 🪵 Reconhecendo Espécies: .orange[Imagens de Cascas]
+## 🪵 .font80[Reconhecimento baseado em .orange[Imagens de Casca]...]
 
 ---
-## 🍃 Reconhecendo Espécies: .orange[Imagens de Folhas]
+## 🍃 .font80[Reconhecimento baseado em .orange[Imagens de Folhas]...]
 
 
 ---
-## 🫘 Reconhecendo Espécies: .orange[Imagens de Sementes]
+## 🫘 .font80[Reconhecimento baseado em .orange[Imagens de Sementes]...]
 
 
 <!-- Slide XX -->
