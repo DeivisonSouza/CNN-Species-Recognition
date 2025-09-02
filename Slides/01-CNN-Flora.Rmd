@@ -192,6 +192,68 @@ knitr::include_graphics('fig/appcf.png')
 .font80[**Fonte**: O Autor.]
 
 ---
+## 🔍 Aplicações de CNN nas Ciênciais Florestais
+
+<br>
+.center[**Tarefa**: Detecção de troncos de árvores e estimativa de diâmetro...]
+<br>
+```{r , echo=FALSE, fig.show='hold', out.width='90%', fig.align='center'}
+knitr::include_graphics('fig/grondin.jpeg')
+```
+.center[.font80[**Fonte**: Grondin et al., 2023]]
+
+---
+## 🔍 Aplicações de CNN nas Ciênciais Florestais
+
+.pull-left-9[
+```{r , echo=FALSE, fig.show='hold', out.width='90%', fig.align='center'}
+knitr::include_graphics('fig/Fu.jpg')
+```
+.center[.font80[**Fonte**: Fu et al., 2024]]
+]
+
+.pull-right-9[
+.center[**Tarefa**: .blue[Detecção de copas de árvores (Mask R-CNN)]]
+
+.font80[
+- (a) Rótulo de verdade básica sobreposto com mapa de cores reais de UAV. 
+- (b) Detecção de copas de árvores usando RGB-CHM-DSM. 
+- (c) Detecção de copas de árvores usando RGB-CHM. 
+- (d) Detecção de copas de árvores usando RGB-DSM. 
+- (e) Detecção de copas de árvores usando RGB.
+
+.center[.green[**Acurácia > 87%, recall > 90% e F1-score > 89%**]]
+]
+]
+
+---
+## 🔍 Aplicações de CNN nas Ciênciais Florestais
+
+.pull-left-9[
+<br><br>
+```{r , echo=FALSE, fig.show='hold', out.width='100%', fig.align='center'}
+knitr::include_graphics('fig/Fu2.jpg')
+```
+.center[.font80[**Fonte**: Fu et al., 2024]]
+
+<br>
+
+**Cores diferentes representam alturas diferentes...**
+
+]
+
+.pull-right-9[
+.center[**Tarefa**: .blue[Detecção da altura e da copa da árvore (Mask R-CNN)]]
+
+.font80[
+- (a), (c), (e) e (g): mostram a imagem composta em cores verdadeiras do UAV (R-Red, G-Green, B-Blue)
+- (b), (d), (f) e (h): são os resultados da detecção da altura da árvore.
+
+.center[.green[**(R² = 0,93, RMSE = 0,25, rRMSE = 3,10)**]]
+]
+]
+
+---
 ## 🪵 .font80[Reconhecimento baseado em .orange[Imagens de Madeiras]...]
 
 ```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
@@ -227,12 +289,6 @@ knitr::include_graphics('fig/wood4.png')
 ## 🪵 .font80[Reconhecimento baseado em .orange[Imagens de Casca]...]
 
 ---
-## 🍃 .font80[Reconhecimento baseado em .orange[Imagens de Folhas]...]
-
-
----
-## 🫘 .font80[Reconhecimento baseado em .orange[Imagens de Sementes]...]
-
 
 <!-- Slide XX -->
 ---
