@@ -449,6 +449,17 @@ knitr::include_graphics('fig/Sun2.png')
 ]
 
 ---
+## 🔍 Aplicações de CNN nas Ciênciais Florestais
+
+# Imagens Micro
+
+---
+## 🔍 Aplicações de CNN nas Ciênciais Florestais
+
+# Imagens Casca (Gama)
+
+
+---
 class: inverse
 layout: false
 background-image: url(fig/sec.png)
