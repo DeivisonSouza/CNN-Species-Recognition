@@ -208,7 +208,8 @@ knitr::include_graphics('fig/appcf.png')
 ## 🔍 Aplicações de CNN nas Ciênciais Florestais
 
 <br>
-.center[**Tarefa**: .blue[Detecção de troncos de árvores e estimativa de diâmetro...]]
+.center[**Tarefa**: .green[Detecção, Segmentação e Estimativa]]
+.center[.blue[Detecção de troncos de árvores e estimativa de diâmetro...]]
 <br>
 ```{r , echo=FALSE, fig.show='hold', out.width='90%', fig.align='center'}
 knitr::include_graphics('fig/grondin.jpeg')
@@ -226,7 +227,8 @@ knitr::include_graphics('fig/Fu.jpg')
 ]
 
 .pull-right-9[
-.center[**Tarefa**: .blue[Detecção de copas de árvores (Mask R-CNN)]]
+.center[**Tarefa**: .green[Detecção]]
+.center[.blue[Detecção de copas de árvores (Mask R-CNN)...]]
 
 .font80[
 - (a) Rótulo de verdade básica sobreposto com mapa de cores reais de UAV. 
@@ -257,7 +259,9 @@ knitr::include_graphics('fig/Fu2.jpg')
 
 .pull-right-9[
 <br><br>
-.center[**Tarefa**: .blue[Detecção simultânea da altura e da copa da árvore (Mask R-CNN)]]
+.center[**Tarefa**: .green[Detecção]]
+
+.center[.blue[Detecção simultânea da altura e da copa da árvore (Mask R-CNN)]]
 
 .font80[
 - (a), (c), (e) e (g): mostram a imagem composta em cores verdadeiras do UAV (R-Red, G-Green, B-Blue)
@@ -270,10 +274,9 @@ knitr::include_graphics('fig/Fu2.jpg')
 ---
 ## 🔍 Aplicações de CNN nas Ciênciais Florestais
 <br>
+.center[**Tarefa**: .green[Detecção]]
+.center[.blue[Monitoramento de doenças em florestas de Pinus (Mask R-CNN) - VANT...]]
 
-.center[**Tarefa**: .blue[Detecção de doenças em florestas de Pinus (Mask R-CNN) - VANT]]
-
-<br>
 ```{r , echo=FALSE, fig.show='hold', out.width='90%', fig.align='center'}
 knitr::include_graphics('fig/Hu.jpg')
 ```
@@ -289,10 +292,9 @@ knitr::include_graphics('fig/Hu.jpg')
 ---
 ## 🔍 Aplicações de CNN nas Ciênciais Florestais
 <br>
+.center[**Tarefa**: .green[Detecção]]
+.center[.blue[Monitoramento de doenças em florestas de Pinus (Mask R-CNN) - VANT...]]
 
-.center[**Tarefa**: .blue[Detecção de doenças em florestas de Pinus (Mask R-CNN) - VANT]]
-
-<br>
 ```{r , echo=FALSE, fig.show='hold', out.width='90%', fig.align='center'}
 knitr::include_graphics('fig/Hu2.jpg')
 ```
@@ -308,28 +310,93 @@ knitr::include_graphics('fig/Hu2.jpg')
 ## 🔍 Aplicações de CNN nas Ciênciais Florestais
 
 .pull-left-9[
-.font80[.center[**Imagens típicas de defeitos superficiais em madeira serrada...**]]
-```{r , echo=FALSE, fig.show='hold', out.width='90%', fig.align='center'}
-knitr::include_graphics('fig/wang.webp')
+```{r , echo=FALSE, fig.show='hold', out.width='100%', fig.align='center'}
+knitr::include_graphics('fig/Ehtis1.jpg')
 ```
-.center[.font80[**Fonte**: Wang et al., 2021]]
+.center[.font80[**Fonte**: Ehtisham et al., 2024]]
 ]
 
 .pull-right-9[
 <br><br>
-.center[**Tarefa**: .green[Detecção]
+.center[**Tarefa**: .green[Detecção]]
 
-.blue[Avaliação da qualidade da superfície da madeira serrada...]
+.center[.blue[Avaliação da qualidade da superfície da madeira serrada...]]
 
-- a) Defeitos de nós sãos
-- b) Defeitos de nós não sãos
-- c) Defeitos de rachaduras
-- d) Defeitos de furos de larvas
-
+.font80[
+- Cracks (**Rachaduras**)
+- knots (**Nós**)
+- Undamaged (**Sem danos**)
 ]
 ]
 
+---
+## 🔍 Aplicações de CNN nas Ciênciais Florestais
 
+.pull-left-9[
+```{r , echo=FALSE, fig.show='hold', out.width='70%', fig.align='center'}
+knitr::include_graphics('fig/Ehtis2.jpg')
+```
+.center[.font80[**Fonte**: Ehtisham et al., 2024]]
+]
+
+.pull-right-9[
+<br><br>
+.center[**Tarefa**: .green[Detecção]]
+
+.center[.blue[Avaliação da qualidade da superfície da madeira serrada...]]
+
+.font80[
+- Cracks (**Rachaduras**)
+- knots (**Nós**)
+- Undamaged (**Sem danos**)
+]
+]
+
+---
+## 🔍 Aplicações de CNN nas Ciênciais Florestais
+<br>
+.pull-left-9[
+```{r , echo=FALSE, fig.show='hold', out.width='100%', fig.align='center'}
+knitr::include_graphics('fig/Ehtis3.jpg')
+```
+.center[.font80[**Fonte**: Ehtisham et al., 2024]]
+]
+
+.pull-right-9[
+<br><br>
+.center[**Tarefa**: .green[Detecção]]
+
+.center[.blue[Avaliação da qualidade da superfície da madeira serrada...]]
+
+.font80[
+- Cracks (**Rachaduras**)
+- knots (**Nós**)
+- Undamaged (**Sem danos**)
+]
+]
+
+---
+## 🔍 Aplicações de CNN nas Ciênciais Florestais
+<br>
+.pull-left-9[
+```{r , echo=FALSE, fig.show='hold', out.width='100%', fig.align='center'}
+knitr::include_graphics('fig/Ehtis4.jpg')
+```
+.center[.font80[**Fonte**: Ehtisham et al., 2024]]
+]
+
+.pull-right-9[
+<br><br>
+.center[**Tarefa**: .green[Detecção]]
+
+.center[.blue[Avaliação da qualidade da superfície da madeira serrada...]]
+
+.font80[
+- Cracks (**Rachaduras**)
+- knots (**Nós**)
+- Undamaged (**Sem danos**)
+]
+]
 
 ---
 class: inverse
