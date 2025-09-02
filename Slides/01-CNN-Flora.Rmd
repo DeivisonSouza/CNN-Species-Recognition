@@ -318,7 +318,7 @@ knitr::include_graphics('fig/Ehtis1.jpg')
 
 .pull-right-9[
 <br><br>
-.center[**Tarefa**: .green[Detecção]]
+.center[**Tarefa**: .green[Detecção e Segmentação]]
 
 .center[.blue[Avaliação da qualidade da superfície da madeira serrada...]]
 
@@ -341,7 +341,7 @@ knitr::include_graphics('fig/Ehtis2.jpg')
 
 .pull-right-9[
 <br><br>
-.center[**Tarefa**: .green[Detecção]]
+.center[**Tarefa**: .green[Detecção e Segmentação]]
 
 .center[.blue[Avaliação da qualidade da superfície da madeira serrada...]]
 
@@ -364,7 +364,7 @@ knitr::include_graphics('fig/Ehtis3.jpg')
 
 .pull-right-9[
 <br><br>
-.center[**Tarefa**: .green[Detecção]]
+.center[**Tarefa**: .green[Detecção e Segmentação]]
 
 .center[.blue[Avaliação da qualidade da superfície da madeira serrada...]]
 
@@ -395,6 +395,56 @@ knitr::include_graphics('fig/Ehtis4.jpg')
 - Cracks (**Rachaduras**)
 - knots (**Nós**)
 - Undamaged (**Sem danos**)
+]
+]
+
+---
+## 🔍 Aplicações de CNN nas Ciênciais Florestais
+<br>
+.pull-left-9[
+```{r , echo=FALSE, fig.show='hold', out.width='70%', fig.align='center'}
+knitr::include_graphics('fig/Sun.png')
+```
+.center[.font80[**Fonte**: Sun et al., 2021]]
+]
+
+.pull-right-9[
+<br>
+.center[**Tarefa**: .green[Classificação]]
+
+.center[.blue[Classificação de espécies de madeira baseado em imagens macroscópicas...]]
+
+.font80[
+- Abordagem: ResNet50 
+- Acurácia: 99,6%
+- Número de Espécies: 25
+- Origem: China
+- Número de imagens: 3.000
+]
+]
+
+---
+## 🔍 Aplicações de CNN nas Ciênciais Florestais
+<br>
+.pull-left-3[
+```{r , echo=FALSE, fig.show='hold', out.width='100%', fig.align='center'}
+knitr::include_graphics('fig/Sun2.png')
+```
+.center[.font80[**Fonte**: Sun et al., 2021]]
+]
+
+.pull-right-3[
+<br>
+.center[**Tarefa**: .green[Classificação]]
+
+.center[.blue[Classificação de espécies de madeira baseado em imagens macroscópicas...]]
+
+.font80[
+- Abordagem: ResNet50 
+- Acurácia: 99,6%
+- Número de Espécies: 25
+- Origem: China
+- Número de imagens: 3.000
 ]
 ]
 
