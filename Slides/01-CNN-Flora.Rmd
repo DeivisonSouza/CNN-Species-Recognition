@@ -89,18 +89,19 @@ background-position: 99% 94%
 background-size: 100px, cover
 
 ---
+layout: true
+background-image: url(fig/deepflora.png), url(fig/cont.png)
+background-position: 80% 50%
+background-size: 600px, cover
+---
 ## 📙 Conteúdo
+<br>
 
-.pull-left-4[
 .pull-top[
-👉 **Parte 1 - Conceitos e fundamentação teórica**
+👉 **Parte 1 - Redes Neurais Convolucionais - RNCs**
 .font80[
 
-[1 - Motivação](#mot)
-
-[2 - Inteligência Artificial, Aprendizado de Máquina e Aprendizado Profundo](#ia)
-
-[3 - Redes Neurais Convolucionais (RNC)](#ia)
+[3 - Redes Neurais Convolucionais (RNCs)](#ia)
 
 &nbsp;&nbsp;[3.1 - O que são?](#TA)
 
@@ -108,7 +109,7 @@ background-size: 100px, cover
 
 &nbsp;&nbsp;[3.3 - Redes Neurais Convolucionais Pré-Treinadas](#TA)
 
-&nbsp;&nbsp;[3.4 - Bibliotecas (keras, Tensorflow)](#TA)
+&nbsp;&nbsp;[3.4 - Frameworks (Tensorflow, keras, PyTorch)](#TA)
 
 [3 - Métodos de Reamostragem](#rea) 
 
@@ -116,25 +117,27 @@ background-size: 100px, cover
 
 ]
 ]
-]
 
---
+---
+## 📙 Conteúdo
+<br>
 
-.pull-right-4[
-👉 **Parte 2 - CNNs no Reconhecimento de Espécies de Plantas**
+.pull-top[
+👉 **Parte 2 - Aplicações de CNN nas Ciênciais Florestais**
 .font80[
-[1 - Método de Bitterlich](#mb)
+
+[1 - Detecção de troncos de árvores](#mot)
+
+[2 - Estimativa de diâmetro de árvores](#mot)
+
+[3 - Detecção de simultânea de altura e copa de árvores](#mot)
+
+[4 - Detecção de doenças em copas de árvores](#mot)
 
 ]
 ]
 
 ---
-layout: true
-background-image: url(fig/deepflora.png), url(fig/cont.png)
-background-position: 80% 50%
-background-size: 600px, cover
----
-
 ## 📙 Conteúdo
 <br>
 
@@ -166,6 +169,17 @@ background-size: 600px, cover
 
 ]
 ]
+
+<!-- Slide XX -->
+---
+class: inverse
+layout: false
+background-image: url(fig/sec.png)
+background-size: cover
+
+## **Redes Neurais Convolucionais:**
+### (Conceito, Arquiteturas, Frameworks, ...)
+
 
 <!-- Slide XX -->
 ---
@@ -289,6 +303,33 @@ knitr::include_graphics('fig/Hu2.jpg')
 
 .center[.font80[**Fonte**: Hu et al., 2022]]
 ]
+
+---
+## 🔍 Aplicações de CNN nas Ciênciais Florestais
+
+.pull-left-9[
+.font80[.center[**Imagens típicas de defeitos superficiais em madeira serrada...**]]
+```{r , echo=FALSE, fig.show='hold', out.width='90%', fig.align='center'}
+knitr::include_graphics('fig/wang.webp')
+```
+.center[.font80[**Fonte**: Wang et al., 2021]]
+]
+
+.pull-right-9[
+<br><br>
+.center[**Tarefa**: .green[Detecção]
+
+.blue[Avaliação da qualidade da superfície da madeira serrada...]
+
+- a) Defeitos de nós sãos
+- b) Defeitos de nós não sãos
+- c) Defeitos de rachaduras
+- d) Defeitos de furos de larvas
+
+]
+]
+
+
 
 ---
 class: inverse
