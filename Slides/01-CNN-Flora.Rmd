@@ -174,9 +174,8 @@ layout: false
 background-image: url(fig/sec.png)
 background-size: cover
 
-
-## **CNNs no Reconhecimento de <br> Espécies de Plantas:**
-### (Madeira, Folha, Casca, Flor e Sementes)
+## **Aplicações de CNN nas <br> Ciênciais Florestais:**
+### (Detectção, Segmentação e Classificação)
 
 ---
 layout: true
@@ -195,7 +194,7 @@ knitr::include_graphics('fig/appcf.png')
 ## 🔍 Aplicações de CNN nas Ciênciais Florestais
 
 <br>
-.center[**Tarefa**: Detecção de troncos de árvores e estimativa de diâmetro...]
+.center[**Tarefa**: .blue[Detecção de troncos de árvores e estimativa de diâmetro...]]
 <br>
 ```{r , echo=FALSE, fig.show='hold', out.width='90%', fig.align='center'}
 knitr::include_graphics('fig/grondin.jpeg')
@@ -243,15 +242,62 @@ knitr::include_graphics('fig/Fu2.jpg')
 ]
 
 .pull-right-9[
-.center[**Tarefa**: .blue[Detecção da altura e da copa da árvore (Mask R-CNN)]]
+<br><br>
+.center[**Tarefa**: .blue[Detecção simultânea da altura e da copa da árvore (Mask R-CNN)]]
 
 .font80[
 - (a), (c), (e) e (g): mostram a imagem composta em cores verdadeiras do UAV (R-Red, G-Green, B-Blue)
 - (b), (d), (f) e (h): são os resultados da detecção da altura da árvore.
 
-.center[.green[**(R² = 0,93, RMSE = 0,25, rRMSE = 3,10)**]]
+.center[.green[**(R² = 0,93; RMSE = 0,25; rRMSE = 3,10)**]]
 ]
 ]
+
+---
+## 🔍 Aplicações de CNN nas Ciênciais Florestais
+<br>
+
+.center[**Tarefa**: .blue[Detecção de doenças em florestas de Pinus (Mask R-CNN) - VANT]]
+
+<br>
+```{r , echo=FALSE, fig.show='hold', out.width='90%', fig.align='center'}
+knitr::include_graphics('fig/Hu.jpg')
+```
+
+.font80[
+- (a): Pinheiros doentes
+- (b): Pinheiros mortos
+- (c): Pinheiros doentes e mortos
+
+.center[.font80[**Fonte**: Hu et al., 2022]]
+]
+
+---
+## 🔍 Aplicações de CNN nas Ciênciais Florestais
+<br>
+
+.center[**Tarefa**: .blue[Detecção de doenças em florestas de Pinus (Mask R-CNN) - VANT]]
+
+<br>
+```{r , echo=FALSE, fig.show='hold', out.width='90%', fig.align='center'}
+knitr::include_graphics('fig/Hu2.jpg')
+```
+
+.font80[
+- **Caixas amarelas**: indicam os pinheiros mortos.
+- **Caixas vermelhas**: indicam os pinheiros doentes.
+
+.center[.font80[**Fonte**: Hu et al., 2022]]
+]
+
+---
+class: inverse
+layout: false
+background-image: url(fig/sec.png)
+background-size: cover
+
+## **CNNs no Reconhecimento de <br> Espécies de Plantas:**
+### (Madeira, Folha, Casca, Flor e Sementes)
 
 ---
 ## 🪵 .font80[Reconhecimento baseado em .orange[Imagens de Madeiras]...]
