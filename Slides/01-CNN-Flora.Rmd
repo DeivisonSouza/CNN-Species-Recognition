@@ -459,52 +459,6 @@ knitr::include_graphics('fig/Sun2.png')
 # Imagens Casca (Gama)
 
 
----
-class: inverse
-layout: false
-background-image: url(fig/sec.png)
-background-size: cover
-
-## **CNNs no Reconhecimento de <br> Espécies de Plantas:**
-### (Madeira, Folha, Casca, Flor e Sementes)
-
----
-## 🪵 .font80[Reconhecimento baseado em .orange[Imagens de Madeiras]...]
-
-```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
-knitr::include_graphics('fig/wood1.png')
-```
-.font80[**Fonte**: O Autor.]
-
----
-## 🪵 .font80[Reconhecimento baseado em .orange[Imagens de Madeiras]...]
-
-```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
-knitr::include_graphics('fig/wood2.png')
-```
-.font80[**Fonte**: O Autor.]
-
----
-## 🪵 .font80[Reconhecimento baseado em .orange[Imagens de Madeiras]...]
-
-```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
-knitr::include_graphics('fig/wood3.png')
-```
-.font80[**Fonte**: O Autor.]
-
----
-## 🪵 .font80[Reconhecimento baseado em .orange[Imagens de Madeiras]...]
-
-```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
-knitr::include_graphics('fig/wood4.png')
-```
-.font80[**Fonte**: O Autor.]
-
----
-## 🪵 .font80[Reconhecimento baseado em .orange[Imagens de Casca]...]
-
----
-
 <!-- Slide XX -->
 ---
 class: inverse
