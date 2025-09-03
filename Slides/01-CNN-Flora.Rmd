@@ -202,7 +202,7 @@ background-size: 100px, cover
 ```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
 knitr::include_graphics('fig/appcf.png')
 ```
-.font80[**Fonte**: O Autor.]
+.center[.font80[**Fonte**: O autor (2025)]]
 
 ---
 ## 🔍 Aplicações de CNN nas Ciênciais Florestais
@@ -549,6 +549,7 @@ background-size: 400px, cover
 ```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/mot.png')
 ```
+.center[.font80[**Fonte**: O autor (2025).]]
 ]
 
 ---
@@ -565,6 +566,7 @@ knitr::include_graphics('fig/mot.png')
 ```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/research1.png')
 ```
+.center[.font80[**Fonte**: O autor (2025).]]
 ]
 
 ---
@@ -582,6 +584,7 @@ knitr::include_graphics('fig/research1.png')
 ```{r, echo=FALSE, out.width='95%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/research2.png')
 ```
+.center[.font80[**Fonte**: O autor (2025).]]
 ]
 
 ---
@@ -610,7 +613,7 @@ Estabelece os procedimentos relativos às atividades de **Manejo Florestal Suste
 | *Tabebuia*     | 60         | 70  | 70  | 70  |
 | *Dipteryx*     | 60         | 75  | 80  | 75  |
 | *Cedrela*      | 55         | 70  | 70  | 50  |
-
+.center[.font80[**Fonte**: O autor (2025).]]
 <br>
 .font70[Acesse aqui: [Instrução Normativa 28, de 11 de dezembro de 2024/IBAMA](https://www.ibama.gov.br/component/legislacao/?view=legislacao&legislacao=139446)]
 ]
@@ -648,6 +651,7 @@ background-size: 400px, cover
 ```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/IN28.png')
 ```
+.center[.font80[**Fonte**: O autor (2025)]]
 ]
 
 ---
@@ -656,6 +660,7 @@ knitr::include_graphics('fig/IN28.png')
 ```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/sist.png')
 ```
+.center[.font80[**Fonte**: O autor (2025).]]
 
 ---
 layout: true
@@ -668,6 +673,7 @@ background-size: 400px, cover
 ```{r, echo=FALSE, out.width='58%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/map.png')
 ```
+.center[.font80[**Fonte**: Gama et al. (2025).]]
 
 ---
 ## Variáveis coletadas
@@ -691,35 +697,41 @@ knitr::include_graphics('fig/map.png')
 ```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/mosaico.png')
 ```
-]
-
----
-## 🌳 Imagens de Partes da Planta
-
-.pull-left-11[
-```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap=''}
-knitr::include_graphics('fig/parkia.png')
-```
-]
-
-.pull-left-11[
-```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap=''}
-knitr::include_graphics('fig/sima.png')
-```
+.center[.font80[**Fonte**: Acervo do autor (2025).]]
 ]
 
 ---
 layout: true
 background-image: url(fig/deepflora2.png), url(fig/cont.png)
-background-position: 98% 50%
+background-position: 100% 50%
 background-size: 200px, cover
+---
+## 🌳 Imagens de Partes da Planta
+
+.pull-left-15[
+.pull-left-17[
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/parkia.png')
+```
+]
+
+.pull-left-17[
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/sima.png')
+```
+]
+.center[.font80[**Fonte**: Acervo do autor (2025).]]
+]
+
 ---
 ## 🍃 Identificação de Espécies
 <br>
 
-```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap=''}
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/bot.png')
 ```
+.center[.font80[**Fonte**: Acervo do autor (2025).]]
+<br>
 
 .center[.font80[**Coletas botânicas**: .blue[83 espécimes de 16 espécies (no mínimo 5 árvores por espécie)]]]
 
@@ -730,18 +742,14 @@ knitr::include_graphics('fig/bot.png')
 ```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/press.png')
 ```
+.center[.font80[**Fonte**: Acervo do autor (2025).]]
 
-.font80[.center[**Exsicatas foram enviadas ao Herbário Felisberto Camargo (HFC) <br> da Universidade Federal Rural da Amazônia.**]]
+.font80[.center[.blue[Exsicatas foram enviadas e incorporadas ao Herbário Felisberto Camargo (HFC) <br> da Universidade Federal Rural da Amazônia....]]]
 
----
-layout: true
-background-image: url(fig/deepflora.png), url(fig/cont.png)
-background-position: 99% 99%
-background-size: 400px, cover
 ---
 ## 🍃 Rotulação de imagens
 
-.pull-left-4[
+.pull-left-10[
 #### .center[🤔 Importância da identificação de espécies para a correta rotulação de imagens]
 
 .font80[
@@ -752,14 +760,19 @@ background-size: 400px, cover
 
 ]
 
-
-.pull-right-4[
-```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap=''}
+.pull-right-10[
+```{r, echo=FALSE, out.width='55%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/comp.png')
 knitr::include_graphics('fig/comp2.png')
 ```
+.center[.font80[**Fonte**: Acervo do autor (2025).]]
 ]
 
+---
+layout: true
+background-image: url(fig/deepflora.png), url(fig/cont.png)
+background-position: 99% 99%
+background-size: 400px, cover
 ---
 ## 📷 Amazon Bark Dataset
 
@@ -790,6 +803,7 @@ knitr::include_graphics('fig/comp2.png')
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/trio.jpg')
 ```
+.center[.font80[**Fonte**: Acervo do autor (2025).]]
 ]
 
 ---
@@ -799,7 +813,7 @@ knitr::include_graphics('fig/trio.jpg')
 ```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap=''}
 knitr::include_graphics('fig/treebark.png')
 ```
-.font80[**Fonte**: Gama, 2024]
+.font80[**Fonte**: Gama et al., 2025]
 
 ---
 layout: true
