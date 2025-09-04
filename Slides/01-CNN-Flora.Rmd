@@ -196,6 +196,14 @@ Redes Neurais Convolucionais são algoritmos de Inteligência Artificial baseado
 
 .center[.blue[As CNNs tentam imitar como o cérebro humano opera para reconhecer padrões e características em imagens.]]
 
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+
+Imagens das tarefas
+
+
 ---
 ## 🧠 Convolutional Neural Networks - CNNs
 
@@ -212,6 +220,62 @@ Comumente, uma CNN é composta por 4 partes principais:
 <br>
 ]
 ]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 🤔 Estrutura de CNNs
+
+.font90[
+Comumente, uma CNN é composta por 4 partes principais:
+- **Camadas convolucionais** (*Convolutional layers*)
+- **Função de ativação ReLU** - (*Rectified Linear Unit - ReLU*)
+- **Camadas de agrupamento** (*Pooling layers*)
+- **Camadas totalmente conectadas** (*Fully connected layers*)
+
+<br>
+]
+]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+
+Figura com uma CNN
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 🤔 Camadas convolucionais (*Convolutional layers*)
+
+.font90[
+👉 .blue[Operação de Convolução?]
+- É uma operação matemática que consiste na multiplicação de matrizes, porém de modo não convencional. 
+- Na prática: 
+
+👉 .blue[Kernels?]
+- É uma pequena matriz quadrada com pesos 
+
+👉 .blue[Kernels?]
+- que desliza sobre a imagem da esquerda para a direita e de cima para baixo.
+
+- Os pesos do *kernel* inciam com valores aleatórios e são aprendidos durante o treinamento da CNN.
+
+Uma camada convolucional é composta por um conjunto de filtros (*kernels*), que deslizam sobre os dados de entrada.
+- Cada *kernel* tem uma largura, uma altura e pesos usados para extrair recursos de imagens de entrada.
+- Na etapa de treinamento, os pesos no *kernel* iniciam com valores aleatórios e são aprendidos com base no conjunto de treinamento.
+<br>
+]
+]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
+knitr::include_graphics('fig/Conv-RGB.gif')
+```
 
 <!-- Slide XX -->
 ---
