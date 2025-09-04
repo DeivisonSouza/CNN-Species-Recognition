@@ -183,7 +183,7 @@ background-size: cover
 ---
 layout: true
 background-image:  url(fig/LMFTCA.png), url(fig/cont.png)
-background-position: 99% 94%
+background-position: 96% 8%
 background-size: 100px, cover
 ---
 ## 🧠 Convolutional Neural Networks - CNNs
@@ -229,10 +229,10 @@ Comumente, uma CNN é composta por 4 partes principais:
 
 .font90[
 Comumente, uma CNN é composta por 4 partes principais:
-- **Camadas convolucionais** (*Convolutional layers*)
-- **Função de ativação ReLU** - (*Rectified Linear Unit - ReLU*)
-- **Camadas de agrupamento** (*Pooling layers*)
-- **Camadas totalmente conectadas** (*Fully connected layers*)
+- **1 - Camadas convolucionais** (*Convolutional layers*)
+- **2 - Função de ativação ReLU** - (*Rectified Linear Unit - ReLU*)
+- **3 - Camadas de agrupamento** (*Pooling layers*)
+- **4 - Camadas totalmente conectadas** (*Fully connected layers*)
 
 <br>
 ]
@@ -248,24 +248,69 @@ Figura com uma CNN
 ## 🧠 Convolutional Neural Networks - CNNs
 
 .shadow1[
+#### 1 - Camadas convolucionais (.black[*Convolutional layers*])
+]
+
+.pull-left-4[
+.shadow4[
+.font80[
+👉 **Operação de Convolução?** .blue[(Entrada * Kernel)]
+- .green[Operação matemática]: consiste na **multiplicação de matrizes**, porém de forma elementar.
+- .green[Na prática]: consiste na multiplicação elementar de valores de uma matriz **kernel** (filtros) pelos valores de **pixels de uma imagem** e, em seguida, obteção das **somas dos produtos**. Os filtros são **aplicados à imagem inteira**, deslizando-o da **esquerda para direita** e de **cima para baixo**.
+- .green[Saída]: mapa de recursos (*feature map*) ou mapa de ativação (*activation map*). Exibe características específicas que foram detectadas na imagem de entrada.
+]
+]
+]
+
+--
+
+.pull-right-4[
+.shadow4[
+.font80[
+👉 **Kernels?**
+
+- .green[Kernels (Filtros)]: São pequenas matrizes quadrada (MxM) com valores (pesos) aleatórios que deslizam sobre uma imagem de entrada durante a operação de convolução. 
+- .green[Importância]: Cada **kernel** é projetado para detectar **padrões específicos** na imagem, como **curvas, bordas, cantos**, etc.
+- .green[Aprendizado]: Os valores (pesos) dos **kernels** são aprendidos durante o processo de treinamento usando retropropagação. Os valores atualizados ajudam a melhor detectar padrões importantes na imagem.
+- .green[Tamanho e Profundidade]: Matrizes pequenas (3x3, 5x5 ou 7x7). Profundidade depende do dado de entrada. Por exemplo, se for uma imagem RGB, o **kernel** terá profundidade igual a 3.
+]
+]
+]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 1 - Camadas convolucionais (.black[*Convolutional layers*])
+]
+
+.pull-left-4[
+.shadow4[
+.center[**Tipos de kernels?**]
+.font80[
+👉 **1 - Kernels de detecção de borda**
+
+✔️ **Filtro Sobel** : Usado para encontrar bordas horizontais ou verticais.
+
+✔️ **Filtro Prewitt**: semelhante ao Sobel, mas usa uma ponderação diferente na matriz para detectar bordas.
+
+✔️ **Filtro Laplaciano**: detecta bordas com base na segunda derivada da imagem, fornecendo uma detecção mais detalhada que inclui bordas diagonais.
+
+]
+]
+]
+
+
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
 #### 🤔 Camadas convolucionais (*Convolutional layers*)
 
 .font90[
-👉 .blue[Operação de Convolução?]
-- É uma operação matemática que consiste na multiplicação de matrizes, porém de modo não convencional. 
-- Na prática: 
+👉 **Kernels de convolução?**
 
-👉 .blue[Kernels?]
-- É uma pequena matriz quadrada com pesos 
-
-👉 .blue[Kernels?]
-- que desliza sobre a imagem da esquerda para a direita e de cima para baixo.
-
-- Os pesos do *kernel* inciam com valores aleatórios e são aprendidos durante o treinamento da CNN.
-
-Uma camada convolucional é composta por um conjunto de filtros (*kernels*), que deslizam sobre os dados de entrada.
-- Cada *kernel* tem uma largura, uma altura e pesos usados para extrair recursos de imagens de entrada.
-- Na etapa de treinamento, os pesos no *kernel* iniciam com valores aleatórios e são aprendidos com base no conjunto de treinamento.
 <br>
 ]
 ]
@@ -273,9 +318,19 @@ Uma camada convolucional é composta por um conjunto de filtros (*kernels*), que
 ---
 ## 🧠 Convolutional Neural Networks - CNNs
 
-```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
+.pull-left-3[
+```{r , echo=FALSE, fig.cap="" , fig.show='hold', out.width='100%', fig.align='center'}
 knitr::include_graphics('fig/Conv-RGB.gif')
 ```
+.center[.font80[**Fonte**: [https://miro.medium.
+com/max/1600/1*ciDgQEjViWLnCbmX-EeSrA.gif](https://miro.medium.
+com/max/1600/1*ciDgQEjViWLnCbmX-EeSrA.gif)]]
+]
+
+.pull-right-3[
+<br><br><br>
+.center[.blue[Operação de convolução em imagens RGB...]]
+]
 
 <!-- Slide XX -->
 ---
