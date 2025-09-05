@@ -371,17 +371,56 @@ Figura com uma CNN
 ## 🧠 Convolutional Neural Networks - CNNs
 
 .shadow1[
+#### 1 - Camadas de agrupamento (.black[*Pooling layers* ou *down-sampling layer*])
+]
+
+--
+
+.shadow4[
+.font90[
+.center[🤔 .orange[**OPERAÇÃO DE AGRUPAMENTO?**]]
+- .blue[**Redução de dimensionalidade**]: técnica de subamostragem usada para reduzir a dimensão espacial dos mapas de recursos, retendo as informações mais relevantes. (.red[Após a operação de convolução!]) &lt;br&gt;&lt;br&gt;
+- .blue[**Importância**]: redução do **número de parâmetros treináveis e cálculos** da rede, tornando o modelo mais **rápido e eficiente**. Menos parâmetros ajuda reduzir **overfitting**. &lt;br&gt;&lt;br&gt;
+- .blue[**Tipos**]: agrupamento máximo (.red[mais usual!]), médio, global e outras.
+- .blue[**Na prática**]: Uma pequena janela é definida (2x2, 3x3). Esta janela se move pelo mapa de recursos (.red[resultado da convolução!]) com um passo (**stride**) definido, criando regiões não sobrepostas. Em cada região, o valor (máximo, médio ou global) se torna o pixel de saída do novo mapa de recursos, com menor dimensão.
+]
+]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
 #### 1 - Camadas de agrupamento (.black[*Pooling layers*])
 ]
 
+--
+
 .shadow4[
-.center[🤔 .orange[**TIPOS DE KERNEL**]]
 .font90[
-
+.center[🤔 .orange[**OPERAÇÃO DE AGRUPAMENTO: UMA RÁPIDA INTUIÇÃO...**]]
 ]
 ]
+&lt;br&gt;
 
+.pull-left-4[
+&lt;img src="fig/pool/max_pool.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
 
+--
+
+.pull-right-4[
+&lt;img src="fig/pool/aver_pool.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-left-15[
+.font80[
+.center[**Fonte**: [https://www.geeksforgeeks.org/deep-learning/cnn-introduction-to-pooling-layer/](https://www.geeksforgeeks.org/deep-learning/cnn-introduction-to-pooling-layer/)
+
+&lt;br&gt;
+Na operação de *Pooling*, o *stride* (**tamanho do passo**) é, por padrão, sempre igual ao tamanho do filtro.
+]
+]
+]
 
 &lt;!-- Slide XX --&gt;
 ---

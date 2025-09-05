@@ -417,17 +417,60 @@ knitr::include_graphics('fig/conv/conv-rgb.gif')
 ## 🧠 Convolutional Neural Networks - CNNs
 
 .shadow1[
+#### 1 - Camadas de agrupamento (.black[*Pooling layers* ou *down-sampling layer*])
+]
+
+--
+
+.shadow4[
+.font90[
+.center[🤔 .orange[**OPERAÇÃO DE AGRUPAMENTO?**]]
+- .blue[**Redução de dimensionalidade**]: técnica de subamostragem usada para reduzir a dimensão espacial dos mapas de recursos, retendo as informações mais relevantes. (.red[Após a operação de convolução!]) <br><br>
+- .blue[**Importância**]: redução do **número de parâmetros treináveis e cálculos** da rede, tornando o modelo mais **rápido e eficiente**. Menos parâmetros ajuda reduzir **overfitting**. <br><br>
+- .blue[**Tipos**]: agrupamento máximo (.red[mais usual!]), médio, global e outras.
+- .blue[**Na prática**]: Uma pequena janela é definida (2x2, 3x3). Esta janela se move pelo mapa de recursos (.red[resultado da convolução!]) com um passo (**stride**) definido, criando regiões não sobrepostas. Em cada região, o valor (máximo, médio ou global) se torna o pixel de saída do novo mapa de recursos, com menor dimensão.
+]
+]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
 #### 1 - Camadas de agrupamento (.black[*Pooling layers*])
 ]
 
+--
+
 .shadow4[
-.center[🤔 .orange[**TIPOS DE KERNEL**]]
 .font90[
-
+.center[🤔 .orange[**OPERAÇÃO DE AGRUPAMENTO: UMA RÁPIDA INTUIÇÃO...**]]
 ]
 ]
+<br>
 
+.pull-left-4[
+```{r , echo=FALSE, fig.show = 'hold', out.width = "100%", fig.align = 'center'}
+knitr::include_graphics('fig/pool/max_pool.png')
+```
+]
 
+--
+
+.pull-right-4[
+```{r , echo=FALSE, fig.show = 'hold', out.width = "100%", fig.align = 'center'}
+knitr::include_graphics('fig/pool/aver_pool.png')
+```
+]
+
+.pull-left-15[
+.font80[
+.center[**Fonte**: [https://www.geeksforgeeks.org/deep-learning/cnn-introduction-to-pooling-layer/](https://www.geeksforgeeks.org/deep-learning/cnn-introduction-to-pooling-layer/)
+
+<br>
+Na operação de *Pooling*, o *stride* (**tamanho do passo**) é, por padrão, sempre igual ao tamanho do filtro.
+]
+]
+]
 
 <!-- Slide XX -->
 ---
