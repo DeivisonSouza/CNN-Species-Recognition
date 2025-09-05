@@ -342,7 +342,6 @@ knitr::include_graphics('fig/conv/conv8.png')
 knitr::include_graphics('fig/conv/conv9.png')
 ```
 
-
 ---
 ## 🧠 Convolutional Neural Networks - CNNs
 
@@ -350,10 +349,9 @@ knitr::include_graphics('fig/conv/conv9.png')
 #### 1 - Camadas convolucionais (.black[*Convolutional layers*])
 ]
 
-.pull-left-4[
 .shadow4[
-.center[**Tipos de kernels?**]
-.font80[
+.center[🤔 .orange[**TIPOS DE KERNEL**]]
+.font90[
 👉 **1 - Kernels de detecção de borda**
 
 - Foram projetados para detectar bordas em uma imagem. Alguns exemplos são:
@@ -366,16 +364,21 @@ knitr::include_graphics('fig/conv/conv9.png')
 
 ]
 ]
-]
 
 ---
 ## 🧠 Convolutional Neural Networks - CNNs
 
-```{r side-by-side-images, echo=FALSE, fig.show = 'hold', out.width = "18%", fig.align = 'default'}
+```{r side-by-side-images, echo=FALSE, fig.show = 'hold', out.width = "17%", fig.align = 'default'}
 ### Figure 1 Title
 knitr::include_graphics('code/image.png')
-knitr::include_graphics('code/sobel_horizontal.png')
+knitr::include_graphics('code/Sobel-V.png')
+knitr::include_graphics('code/Prewitt_H.png')
+knitr::include_graphics('code/Laplaciano.png')
+knitr::include_graphics('code/gaussian_blur.png')
 ```
+.pull-left-15[
+.center[.font80[**Fonte**: O autor (2025).]]
+]
 
 ---
 ## 🧠 Convolutional Neural Networks - CNNs
