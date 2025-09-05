@@ -59,7 +59,7 @@ background-size: 130px, 110px, 150px, 130px, cover
 ##### 👨🏻‍👩🏻‍👦🏻‍👦🏻 [@lmftca_ufpa](https://www.instagram.com/lmftca_ufpa/)
 ##### 🌎 [https://www.lmftca.com.br/](https://www.lmftca.com.br/)
 &lt;br&gt;
-##### 1ª versão: 08/setembro/2025 &lt;br&gt; (Atualizado em: 04/setembro/2025) &lt;br&gt; Altamira, Pará
+##### 1ª versão: 08/setembro/2025 &lt;br&gt; (Atualizado em: 05/setembro/2025) &lt;br&gt; Altamira, Pará
 
 ---
 layout: true
@@ -230,31 +230,83 @@ Figura com uma CNN
 #### 1 - Camadas convolucionais (.black[*Convolutional layers*])
 ]
 
-.pull-left-4[
+--
+
 .shadow4[
-.font80[
-👉 **Operação de Convolução?** .blue[(Entrada * Kernel)]
-- .green[Operação matemática]: consiste na **multiplicação de matrizes**, porém de forma elementar.
-- .green[Na prática]: consiste na multiplicação elementar de valores de uma matriz **kernel** (filtros) pelos valores de **pixels de uma imagem** e, em seguida, obteção das **somas dos produtos**. Os filtros são **aplicados à imagem inteira**, deslizando-o da **esquerda para direita** e de **cima para baixo**.
-- .green[Saída]: mapa de recursos (*feature map*) ou mapa de ativação (*activation map*). Exibe características específicas que foram detectadas na imagem de entrada.
+.font90[
+.center[🤔 .orange[**OPERAÇÃO DE CONVOLUÇÃO?**] .blue[(Entrada * Kernel)]]
+- .blue[**Operação matemática**]: consiste na **multiplicação de matrizes**, porém de forma elementar.&lt;br&gt;&lt;br&gt;
+- .blue[**Na prática**]: consiste na multiplicação elementar de valores de uma matriz **kernel** (filtros) pelos valores de **pixels de uma imagem** e, em seguida, obteção das **somas dos produtos**. Os filtros são **aplicados à imagem inteira**, deslizando-o da **esquerda para direita** e de **cima para baixo**.&lt;br&gt;&lt;br&gt;
+- .blue[**Saída**]: mapa de recursos (*feature map*) ou mapa de ativação (*activation map*). Exibe características específicas que foram detectadas na imagem de entrada.
 ]
 ]
+
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 1 - Camadas convolucionais (.black[*Convolutional layers*])
+]
+
+--
+
+.shadow4[
+.font90[
+.center[🤔 .orange[**KERNELS (OU FILTROS)?**]]
+
+- .blue[**Kernels (Filtros)**]: São pequenas **matrizes quadrada** (MxM) com valores (pesos) aleatórios que **deslizam sobre uma imagem de entrada** durante a operação de convolução.&lt;br&gt;&lt;br&gt;
+- .blue[**Aprendizado**]: Os **valores dos kernels são aprendidos** durante o processo de **treinamento** usando retropropagação. Os valores atualizados ajudam a melhor detectar padrões importantes na imagem.&lt;br&gt;&lt;br&gt;
+- .blue[**Tamanho e Profundidade**]: Matrizes pequenas (3x3, 5x5 ou 7x7). Profundidade depende do dado de entrada. Por exemplo, se for uma imagem RGB, o **kernel** terá profundidade igual a 3.&lt;br&gt;&lt;br&gt;
+- .blue[**Importância**]: Cada **kernel** é projetado para detectar **padrões específicos** na imagem (**curvas, bordas, cantos**, etc.). Portanto, influencia na capacidade de extrair recursos relevantes.
+]
+]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 1 - Camadas convolucionais (.black[*Convolutional layers*])
+]
+
+--
+
+.shadow4[
+.font90[
+.center[🤔 .orange[**OPERAÇÃO DE CONVOLUÇÃO: UMA RÁPIDA INTUIÇÃO...**]]
+]
+]
+&lt;br&gt;
+
+.pull-left-4[
+&lt;img src="fig/conv/conv1.png" width="100%" style="display: block; margin: auto;" /&gt;
 ]
 
 --
 
 .pull-right-4[
-.shadow4[
-.font80[
-👉 **Kernels?**
+&lt;img src="fig/conv/conv2.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
 
-- .green[Kernels (Filtros)]: São pequenas matrizes quadrada (MxM) com valores (pesos) aleatórios que deslizam sobre uma imagem de entrada durante a operação de convolução. 
-- .green[Importância]: Cada **kernel** é projetado para detectar **padrões específicos** na imagem, como **curvas, bordas, cantos**, etc.
-- .green[Aprendizado]: Os valores (pesos) dos **kernels** são aprendidos durante o processo de treinamento usando retropropagação. Os valores atualizados ajudam a melhor detectar padrões importantes na imagem.
-- .green[Tamanho e Profundidade]: Matrizes pequenas (3x3, 5x5 ou 7x7). Profundidade depende do dado de entrada. Por exemplo, se for uma imagem RGB, o **kernel** terá profundidade igual a 3.
+.pull-left-15[
+.center[.font80[**Fonte**: O autor (2025).]]
+]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow4[
+.font90[
+.center[🤔 .orange[**OPERAÇÃO DE CONVOLUÇÃO: UMA RÁPIDA INTUIÇÃO...**]]
 ]
 ]
-]
+
+&lt;img src="fig/conv/conv3.png" width="30%" /&gt;&lt;img src="fig/conv/conv4.png" width="30%" /&gt;&lt;img src="fig/conv/conv5.png" width="30%" /&gt;
+
+&lt;img src="fig/conv/conv6.png" width="30%" /&gt;&lt;img src="fig/conv/conv7.png" width="30%" /&gt;&lt;img src="fig/conv/conv8.png" width="30%" /&gt;
+
+&lt;img src="fig/conv/conv9.png" width="30%" style="display: block; margin: auto;" /&gt;
+
 
 ---
 ## 🧠 Convolutional Neural Networks - CNNs
@@ -269,17 +321,22 @@ Figura com uma CNN
 .font80[
 👉 **1 - Kernels de detecção de borda**
 
-✔️ **Filtro Sobel** : Usado para encontrar bordas horizontais ou verticais.
+- Foram projetados para detectar bordas em uma imagem. Alguns exemplos são:
 
-✔️ **Filtro Prewitt**: semelhante ao Sobel, mas usa uma ponderação diferente na matriz para detectar bordas.
+✔️ .blue[**Filtro Sobel**]: Usado para encontrar bordas horizontais ou verticais.
 
-✔️ **Filtro Laplaciano**: detecta bordas com base na segunda derivada da imagem, fornecendo uma detecção mais detalhada que inclui bordas diagonais.
+✔️ .blue[**Filtro Prewitt**]: semelhante ao Sobel, mas usa uma ponderação diferente na matriz para detectar bordas.
+
+✔️ .blue[**Filtro Laplaciano**]: detecta bordas com base na segunda derivada da imagem, fornecendo uma detecção mais detalhada que inclui bordas diagonais.
 
 ]
 ]
 ]
 
+---
+## 🧠 Convolutional Neural Networks - CNNs
 
+&lt;img src="code/image.png" width="18%" /&gt;&lt;img src="code/sobel_horizontal.png" width="18%" /&gt;
 
 ---
 ## 🧠 Convolutional Neural Networks - CNNs
