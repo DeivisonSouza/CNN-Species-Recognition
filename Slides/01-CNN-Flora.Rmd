@@ -361,6 +361,9 @@ knitr::include_graphics('fig/conv/conv9.png')
 ✔️ .blue[**Filtro Prewitt**]: semelhante ao Sobel, mas usa uma ponderação diferente na matriz para detectar bordas.
 
 ✔️ .blue[**Filtro Laplaciano**]: detecta bordas com base na segunda derivada da imagem, fornecendo uma detecção mais detalhada que inclui bordas diagonais.
+<br><br>
+
+**Explore o site**: [image-kernels](https://setosa.io/ev/image-kernels/)
 
 ]
 ]
@@ -383,14 +386,16 @@ knitr::include_graphics('code/gaussian_blur.png')
 ---
 ## 🧠 Convolutional Neural Networks - CNNs
 
-.shadow1[
-#### 🤔 Camadas convolucionais (*Convolutional layers*)
-
-.font90[
-👉 **Kernels de convolução?**
-
-<br>
+.pull-left-3[
+```{r , echo=FALSE, fig.cap="" , fig.show='hold', out.width='100%', fig.align='center'}
+knitr::include_graphics('fig/conv/conv-rgb2.png')
+```
+.center[.font70[**Fonte**: [https://coolgpu.github.io/coolgpu_blog/github/pages/2020/10/04/convolution.html](https://coolgpu.github.io/coolgpu_blog/github/pages/2020/10/04/convolution.html)]]
 ]
+
+.pull-right-3[
+<br><br><br>
+.center[.blue[Operação de convolução em imagens RGB...]]
 ]
 
 ---
@@ -398,17 +403,31 @@ knitr::include_graphics('code/gaussian_blur.png')
 
 .pull-left-3[
 ```{r , echo=FALSE, fig.cap="" , fig.show='hold', out.width='100%', fig.align='center'}
-knitr::include_graphics('fig/Conv-RGB.gif')
+knitr::include_graphics('fig/conv/conv-rgb.gif')
 ```
-.center[.font80[**Fonte**: [https://miro.medium.
-com/max/1600/1*ciDgQEjViWLnCbmX-EeSrA.gif](https://miro.medium.
-com/max/1600/1*ciDgQEjViWLnCbmX-EeSrA.gif)]]
+.center[.font70[**Fonte**: [https://coolgpu.github.io/coolgpu_blog/github/pages/2020/10/04/convolution.html](https://coolgpu.github.io/coolgpu_blog/github/pages/2020/10/04/convolution.html)]]
 ]
 
 .pull-right-3[
 <br><br><br>
 .center[.blue[Operação de convolução em imagens RGB...]]
 ]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 1 - Camadas de agrupamento (.black[*Pooling layers*])
+]
+
+.shadow4[
+.center[🤔 .orange[**TIPOS DE KERNEL**]]
+.font90[
+
+]
+]
+
+
 
 <!-- Slide XX -->
 ---
