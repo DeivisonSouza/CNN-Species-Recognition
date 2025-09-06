@@ -409,6 +409,37 @@ knitr::include_graphics('fig/conv/conv-rgb.gif')
 #### 2 - Função de ativação ReLU - (.black[*Rectified Linear Unit - ReLU*])
 ]
 
+.shadow4[
+.font90[
+.center[🤔 .orange[**Rectified Linear Unit - ReLU?**]]
+
+- .blue[**Função de ativação**]: É uma função aplicada após uma camada convolucional. <br><br>
+- .blue[**Importância**]: Adiciona não linearidade na rede.<br><br>
+- .blue[**Função Matemática**]:  .<br><br>
+- .blue[**Importância**]: 
+]
+]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 2 - Função de ativação ReLU - (.black[*Rectified Linear Unit - ReLU*])
+]
+
+.pull-left-4[
+```{r , echo=FALSE, fig.cap="" , fig.show='hold', out.width='90%', fig.align='center'}
+knitr::include_graphics('fig/relu.png')
+```
+.center[.font80[**Fonte**: Es-Sabery et al. (2021).]]
+<br>
+
+$f(x) = \begin{cases} x & \text{if } x \ge 0 \\ 0 & \text{if } x < 0 \end{cases}$
+]
+
+.pull-right-4[
+
+]
 
 ---
 ## 🧠 Convolutional Neural Networks - CNNs
