@@ -309,27 +309,125 @@ knitr::include_graphics('fig/conv/conv2.png')
 ---
 ## 🧠 Convolutional Neural Networks - CNNs
 
+.shadow1[
+#### 1 - Camadas convolucionais (.black[*Convolutional layers*])
+]
+
+--
+
 .shadow4[
 .font90[
 .center[🤔 .orange[**OPERAÇÃO DE CONVOLUÇÃO: UMA RÁPIDA INTUIÇÃO...**]]
 ]
 ]
+<br>
 
-```{r , echo=FALSE, fig.show = 'hold', out.width = "30%", fig.align = 'default'}
+.pull-left-4[
+```{r , echo=FALSE, fig.show = 'hold', out.width = "100%", fig.align = 'center'}
 knitr::include_graphics('fig/conv/conv3.png')
+```
+]
+
+--
+
+.pull-right-4[
+```{r , echo=FALSE, fig.show = 'hold', out.width = "100%", fig.align = 'center'}
 knitr::include_graphics('fig/conv/conv4.png')
+```
+]
+
+.pull-left-15[
+.center[.font80[**Fonte**: O autor (2025).]]
+]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 1 - Camadas convolucionais (.black[*Convolutional layers*])
+]
+
+--
+
+.shadow4[
+.font90[
+.center[🤔 .orange[**OPERAÇÃO DE CONVOLUÇÃO: UMA RÁPIDA INTUIÇÃO...**]]
+]
+]
+<br>
+
+.pull-left-4[
+```{r , echo=FALSE, fig.show = 'hold', out.width = "100%", fig.align = 'center'}
 knitr::include_graphics('fig/conv/conv5.png')
 ```
+]
 
-```{r , echo=FALSE, fig.show = 'hold', out.width = "30%", fig.align = 'default'}
+--
+
+.pull-right-4[
+```{r , echo=FALSE, fig.show = 'hold', out.width = "100%", fig.align = 'center'}
 knitr::include_graphics('fig/conv/conv6.png')
+```
+]
+
+.pull-left-15[
+.center[.font80[**Fonte**: O autor (2025).]]
+]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 1 - Camadas convolucionais (.black[*Convolutional layers*])
+]
+
+--
+
+.shadow4[
+.font90[
+.center[🤔 .orange[**OPERAÇÃO DE CONVOLUÇÃO: UMA RÁPIDA INTUIÇÃO...**]]
+]
+]
+<br>
+
+.pull-left-4[
+```{r , echo=FALSE, fig.show = 'hold', out.width = "100%", fig.align = 'center'}
 knitr::include_graphics('fig/conv/conv7.png')
+```
+]
+
+--
+
+.pull-right-4[
+```{r , echo=FALSE, fig.show = 'hold', out.width = "100%", fig.align = 'center'}
 knitr::include_graphics('fig/conv/conv8.png')
 ```
+]
 
-```{r , echo=FALSE, fig.show = 'hold', out.width = "30%", fig.align = 'center'}
+.pull-left-15[
+.center[.font80[**Fonte**: O autor (2025).]]
+]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 1 - Camadas convolucionais (.black[*Convolutional layers*])
+]
+
+--
+
+.shadow4[
+.font90[
+.center[🤔 .orange[**OPERAÇÃO DE CONVOLUÇÃO: UMA RÁPIDA INTUIÇÃO...**]]
+]
+]
+<br>
+
+```{r , echo=FALSE, fig.show = 'hold', out.width = "60%", fig.align = 'center'}
 knitr::include_graphics('fig/conv/conv9.png')
 ```
+.center[.font80[**Fonte**: O autor (2025).]]
 
 ---
 ## 🧠 Convolutional Neural Networks - CNNs
@@ -428,18 +526,42 @@ knitr::include_graphics('fig/conv/conv-rgb.gif')
 ]
 
 .pull-left-4[
-```{r , echo=FALSE, fig.cap="" , fig.show='hold', out.width='90%', fig.align='center'}
-knitr::include_graphics('fig/relu.png')
+```{r , echo=FALSE, fig.cap="" , fig.show='hold', out.width='80%', fig.align='center'}
+knitr::include_graphics('fig/reluX.png')
 ```
 .center[.font80[**Fonte**: Es-Sabery et al. (2021).]]
-<br>
+]
+
+.pull-left-4[
+<br><br>
 
 $f(x) = \begin{cases} x & \text{if } x \ge 0 \\ 0 & \text{if } x < 0 \end{cases}$
+
+.font80[
+- Se a entrada (valor do pixel) ≥ zero (x ≥ 0), a saída será o próprio valor do pixel. Se a entrada for menor < zero (x < 0), a saída será zero.
 ]
 
-.pull-right-4[
-
 ]
+
+
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 2 - Função de ativação ReLU - (.black[*Rectified Linear Unit - ReLU*])
+]
+
+.shadow4[
+.font90[
+.center[🤔 .orange[**APLICANDO A FUNÇÃO ReLU APÓS A CONVOLUÇÃO: UMA RÁPIDA INTUIÇÃO...**]]
+]
+]
+<br>
+
+```{r , echo=FALSE, fig.cap="" , fig.show='hold', out.width='70%', fig.align='center'}
+knitr::include_graphics('fig/relu.png')
+```
 
 ---
 ## 🧠 Convolutional Neural Networks - CNNs
