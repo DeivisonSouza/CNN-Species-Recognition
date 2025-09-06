@@ -406,7 +406,15 @@ knitr::include_graphics('fig/conv/conv-rgb.gif')
 ## 🧠 Convolutional Neural Networks - CNNs
 
 .shadow1[
-#### 1 - Camadas de agrupamento (.black[*Pooling layers* ou *down-sampling layer*])
+#### 2 - Função de ativação ReLU - (.black[*Rectified Linear Unit - ReLU*])
+]
+
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 3 - Camadas de agrupamento (.black[*Pooling layers* ou *down-sampling layer*])
 ]
 
 --
@@ -425,7 +433,7 @@ knitr::include_graphics('fig/conv/conv-rgb.gif')
 ## 🧠 Convolutional Neural Networks - CNNs
 
 .shadow1[
-#### 1 - Camadas de agrupamento (.black[*Pooling layers*])
+#### 3 - Camadas de agrupamento (.black[*Pooling layers*])
 ]
 
 --
@@ -465,7 +473,7 @@ Na operação de *Pooling*, o *stride* (**tamanho do passo**) é, por padrão, s
 ## 🧠 Convolutional Neural Networks - CNNs
 
 .shadow1[
-#### 1 - Camadas de agrupamento (.black[*Pooling layers*])
+#### 3 - Camadas de agrupamento (.black[*Pooling layers*])
 ]
 
 --
@@ -478,7 +486,7 @@ knitr::include_graphics('code/max_pool.png')
 ## 🧠 Convolutional Neural Networks - CNNs
 
 .shadow1[
-#### 1 - Camadas de agrupamento (.black[*Pooling layers*])
+#### 3 - Camadas de agrupamento (.black[*Pooling layers*])
 ]
 
 --
@@ -486,16 +494,6 @@ knitr::include_graphics('code/max_pool.png')
 ```{r , echo=FALSE, fig.show = 'hold', out.width = "100%", fig.align = 'center'}
 knitr::include_graphics('code/aver_pool.png')
 ```
-
----
-## 🧠 Convolutional Neural Networks - CNNs
-
-.shadow1[
-#### 1 - Camadas de agrupamento (.black[*Pooling layers*])
-]
-
-
-
 
 <!-- Slide XX -->
 ---
