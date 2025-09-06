@@ -512,9 +512,7 @@ knitr::include_graphics('fig/conv/conv-rgb.gif')
 .center[🤔 .orange[**Rectified Linear Unit - ReLU?**]]
 
 - .blue[**Função de ativação**]: É uma função aplicada após uma camada convolucional. <br><br>
-- .blue[**Importância**]: Adiciona não linearidade na rede.<br><br>
-- .blue[**Função Matemática**]:  .<br><br>
-- .blue[**Importância**]: 
+- .blue[**Importância**]: Introduzir **não linearidade** ao modelo. Isso permite a captura de **padrões mais complexos** nos dados.<br><br>
 ]
 ]
 
