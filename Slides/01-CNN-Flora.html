@@ -59,7 +59,7 @@ background-size: 130px, 110px, 150px, 130px, cover
 ##### 👨🏻‍👩🏻‍👦🏻‍👦🏻 [@lmftca_ufpa](https://www.instagram.com/lmftca_ufpa/)
 ##### 🌎 [https://www.lmftca.com.br/](https://www.lmftca.com.br/)
 &lt;br&gt;
-##### 1ª versão: 08/setembro/2025 &lt;br&gt; (Atualizado em: 05/setembro/2025) &lt;br&gt; Altamira, Pará
+##### 1ª versão: 08/setembro/2025 &lt;br&gt; (Atualizado em: 06/setembro/2025) &lt;br&gt; Altamira, Pará
 
 ---
 layout: true
@@ -380,7 +380,7 @@ Figura com uma CNN
 .font90[
 .center[🤔 .orange[**OPERAÇÃO DE AGRUPAMENTO?**]]
 - .blue[**Redução de dimensionalidade**]: técnica de subamostragem usada para reduzir a dimensão espacial dos mapas de recursos, retendo as informações mais relevantes. (.red[Após a operação de convolução!]) &lt;br&gt;&lt;br&gt;
-- .blue[**Importância**]: redução do **número de parâmetros treináveis e cálculos** da rede, tornando o modelo mais **rápido e eficiente**. Menos parâmetros ajuda reduzir **overfitting**. &lt;br&gt;&lt;br&gt;
+- .blue[**Importância**]: redução do **número de parâmetros treináveis e cálculos** da rede, tornando o modelo mais **rápido e eficiente**. Invariância à translação (.red[extrair características da imagem indenpendente da posição do objeto]. Menos parâmetros ajuda reduzir **overfitting**. &lt;br&gt;&lt;br&gt;
 - .blue[**Tipos**]: agrupamento máximo (.red[mais usual!]), médio, global e outras.
 - .blue[**Na prática**]: Uma pequena janela é definida (2x2, 3x3). Esta janela se move pelo mapa de recursos (.red[resultado da convolução!]) com um passo (**stride**) definido, criando regiões não sobrepostas. Em cada região, o valor (máximo, médio ou global) se torna o pixel de saída do novo mapa de recursos, com menor dimensão.
 ]
@@ -421,6 +421,28 @@ Na operação de *Pooling*, o *stride* (**tamanho do passo**) é, por padrão, s
 ]
 ]
 ]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 1 - Camadas de agrupamento (.black[*Pooling layers*])
+]
+
+--
+
+&lt;img src="code/max_pool.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 1 - Camadas de agrupamento (.black[*Pooling layers*])
+]
+
+--
+
+&lt;img src="code/aver_pool.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 &lt;!-- Slide XX --&gt;
 ---

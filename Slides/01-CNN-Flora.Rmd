@@ -426,7 +426,7 @@ knitr::include_graphics('fig/conv/conv-rgb.gif')
 .font90[
 .center[🤔 .orange[**OPERAÇÃO DE AGRUPAMENTO?**]]
 - .blue[**Redução de dimensionalidade**]: técnica de subamostragem usada para reduzir a dimensão espacial dos mapas de recursos, retendo as informações mais relevantes. (.red[Após a operação de convolução!]) <br><br>
-- .blue[**Importância**]: redução do **número de parâmetros treináveis e cálculos** da rede, tornando o modelo mais **rápido e eficiente**. Menos parâmetros ajuda reduzir **overfitting**. <br><br>
+- .blue[**Importância**]: redução do **número de parâmetros treináveis e cálculos** da rede, tornando o modelo mais **rápido e eficiente**. Invariância à translação (.red[extrair características da imagem indenpendente da posição do objeto]. Menos parâmetros ajuda reduzir **overfitting**. <br><br>
 - .blue[**Tipos**]: agrupamento máximo (.red[mais usual!]), médio, global e outras.
 - .blue[**Na prática**]: Uma pequena janela é definida (2x2, 3x3). Esta janela se move pelo mapa de recursos (.red[resultado da convolução!]) com um passo (**stride**) definido, criando regiões não sobrepostas. Em cada região, o valor (máximo, médio ou global) se torna o pixel de saída do novo mapa de recursos, com menor dimensão.
 ]
@@ -471,6 +471,32 @@ Na operação de *Pooling*, o *stride* (**tamanho do passo**) é, por padrão, s
 ]
 ]
 ]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 1 - Camadas de agrupamento (.black[*Pooling layers*])
+]
+
+--
+
+```{r , echo=FALSE, fig.show = 'hold', out.width = "100%", fig.align = 'center'}
+knitr::include_graphics('code/max_pool.png')
+```
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 1 - Camadas de agrupamento (.black[*Pooling layers*])
+]
+
+--
+
+```{r , echo=FALSE, fig.show = 'hold', out.width = "100%", fig.align = 'center'}
+knitr::include_graphics('code/aver_pool.png')
+```
 
 <!-- Slide XX -->
 ---
