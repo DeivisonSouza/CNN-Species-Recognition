@@ -657,6 +657,16 @@ knitr::include_graphics('code/max_pool.png')
 knitr::include_graphics('code/aver_pool.png')
 ```
 
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 4 - Camadas totalmente conectadas (.black[*Fully connected layers*])
+]
+
+
+
+
 <!-- Slide XX -->
 ---
 class: inverse
