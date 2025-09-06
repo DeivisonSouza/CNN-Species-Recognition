@@ -201,7 +201,14 @@ Redes Neurais Convolucionais são algoritmos de Inteligência Artificial baseado
 ## 🧠 Convolutional Neural Networks - CNNs
 
 
-Imagens das tarefas
+.shadow1[
+#### 🤔 Principais Tarefas
+]
+
+```{r , echo=FALSE, fig.show = 'hold', out.width = "80%", fig.align = 'center'}
+knitr::include_graphics('fig/tasks.webp')
+```
+.center[.font70[**Fonte**: [https://www.superannotate.com/blog/image-segmentation-for-machine-learning](https://www.superannotate.com/blog/image-segmentation-for-machine-learning)]]
 
 
 ---
@@ -212,12 +219,17 @@ Imagens das tarefas
 
 .font90[
 Comumente, uma CNN é composta por 4 partes principais:
-- **Camadas convolucionais** (*Convolutional layers*)
-- **Função de ativação ReLU** - (*Rectified Linear Unit - ReLU*)
-- **Camadas de agrupamento** (*Pooling layers* ou *down-sampling layer* ou *subsampling*)
-- **Camadas totalmente conectadas** (*Fully connected layers*)
+- 1 - **Camadas convolucionais** (*Convolutional layers*)
+- 2 - **Função de ativação ReLU** - (*Rectified Linear Unit - ReLU*)
+- 3 - **Camadas de agrupamento** (*Pooling layers* ou *down-sampling layer* ou *subsampling*)
+- 4 - **Camadas totalmente conectadas** (*Fully connected layers*)
+
+👉 .blue[**Essas camadas pode ser divididas em duas partes:**]
+- Camadas 1, 2 e 3: Extratora de recursos (.green[*Feature extraction*])
+- Camada 4: Classificação (.green[*Classification*])
 
 <br>
+
 ]
 ]
 
@@ -250,7 +262,6 @@ knitr::include_graphics('fig/CNN.jpg')
 - .blue[**Saída**]: mapa de recursos (*feature map*) ou mapa de ativação (*activation map*). Exibe características específicas que foram detectadas na imagem de entrada.
 ]
 ]
-
 
 ---
 ## 🧠 Convolutional Neural Networks - CNNs
