@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Reconhecimento de Espécies de Plantas Usando Recursos de Imagens: Um enfoque nas Redes Neurais Convolucionais (RNCs)</title>
+    <title>Classificação de Imagens com Redes Neurais Convolucionais (RNCs): Aplicações no Reconhecimento de Espécies de Plantas</title>
     <meta charset="utf-8" />
     <meta name="author" content="Prof. Dr. Deivison Venicio Souza" />
     <script src="01-CNN-Flora_files/header-attrs-2.29/header-attrs.js"></script>
@@ -27,7 +27,7 @@
 class: title-slide, center, middle
 background-image: url(fig/LMFTCA.png), url(fig/ufpa.png), url(fig/PPGBC.png), url(fig/PPGCTIF.PNG), url(fig/deepflora.png), url(fig/title.jpg)
 background-position: 90% 5%, 10% 5%, 10% 90%, 90% 90%, 50% 25%
-background-size: 130px, 110px, 150px, 130px, 400px, cover
+background-size: 130px, 110px, 150px, 130px, 500px, cover
 
 
 
@@ -44,11 +44,11 @@ background-size: 130px, 110px, 150px, 130px, 400px, cover
 ##### Programa de Pós-Graduação em Biodiversidade e Conservação (PPGBC)/UFPA
 ##### Programa de Pós-Graduação em Ciência, Tecnologia e Inovação Florestal (PPGCTIF)/UFOPA
 
-&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
 
-## Reconhecimento de Espécies de Plantas Usando Recursos de Imagens: Um enfoque nas Redes Neurais Convolucionais (RNCs)
+## Classificação de Imagens com Redes Neurais Convolucionais (RNCs): Aplicações no Reconhecimento de Espécies de Plantas
 
-&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
 
 ##### 〰〰〰〰〰〰〰〰〰🌳〰〰〰〰〰〰〰〰〰
 ##### .font120[**Deivison Venicio Souza**]
@@ -82,13 +82,13 @@ background-size: 600px, cover
 
 [2 - Principais tarefas](#pt)
 
-[3 - Estrutura básica de RNCs](#est)
+[3 - Estrutura básica de RNCs para Classificação](#est)
 
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[3.1 - Camadas convolucionais (*Convolutional layers*)](#cl)
 
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[3.2 - Função de ativação ReLU (*Rectified Linear Unit - ReLU*)](#relu)
 
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[3.3 - Camadas de agrupamento (*Pooling layers*)](#pl)
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[3.3 - Camadas de agrupamento (*Pooling layers* ou *subsampling*)](#pl)
 
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[3.4 - Camadas totalmente conectadas (*Fully connected layers*)](#fcl)
 
@@ -104,16 +104,16 @@ background-size: 600px, cover
 &lt;br&gt;
 
 .pull-top[
-👉 **Parte 2 - Aplicações Populares e nas Ciênciais Florestais de CNNs**
+👉 **Parte 2 - RNCs - Aplicações Populares e nas Ciênciais Florestais**
 .font80[
 
-[1 - Detecção de Pedestres](#ped)
+[1 - Detecção de Pedestres (*Pedestrian Detection*)](#ped)
 
-[2 - Carros Autônomos](#mot)
+[2 - Carros Autônomos (*Autonomous Cars*)](#mot)
 
-[3 - Reconhecimento de Emoções Faciais](#mot)
+[3 - Reconhecimento de Emoções Faciais (*Facial Emotion Recognition*)](#mot)
 
-[4 - Reconhecimento Facial](#mot)
+[4 - Reconhecimento Facial (*Facial Recognition*)](#mot)
 
 [5 - Estimativa de diâmetro de árvores](#mot)
 
@@ -200,7 +200,7 @@ Redes Neurais Convolucionais são algoritmos de Inteligência Artificial baseado
 ## 🧠 Convolutional Neural Networks - CNNs
 
 .shadow1[
-#### 🤔 Estrutura básica de CNNs
+#### 🤔 Estrutura básica de RNCs para tarefas de Classificação
 
 .font90[
 Comumente, uma CNN é composta por 4 partes principais:
@@ -222,7 +222,7 @@ Comumente, uma CNN é composta por 4 partes principais:
 ## 🧠 Convolutional Neural Networks - CNNs
 
 .shadow1[
-#### 🤔 Estrutura básica de CNNs
+#### 🤔 Estrutura básica de RNCs para tarefas de Classificação
 ]
 
 &lt;img src="fig/CNN.jpeg" width="80%" style="display: block; margin: auto;" /&gt;
@@ -625,7 +625,7 @@ Na operação de *Pooling*, o *stride* (**tamanho do passo**) é, por padrão, s
 ## 🧠 Convolutional Neural Networks - CNNs
 
 .shadow1[
-#### 🤔 Estrutura básica de CNNs
+#### 🤔 Estrutura básica de RNCs para tarefas de Classificação
 ]
 
 &lt;img src="fig/CNN.jpeg" width="80%" style="display: block; margin: auto;" /&gt;
@@ -695,7 +695,7 @@ layout: false
 background-image: url(fig/sec.png)
 background-size: cover
 
-## **Aplicações de CNNs populares &lt;br&gt; e nas Ciênciais Florestais:**
+## **RNCs: Aplicações populares &lt;br&gt; e nas Ciênciais Florestais:**
 ### (Detectção, Segmentação e Classificação)
 
 ---
@@ -979,11 +979,6 @@ background-size: 100px, cover
 - Número de imagens: 3.000
 ]
 ]
-
----
-## 🔍 Aplicações de CNN nas Ciênciais Florestais
-
-# Imagens Micro
 
 ---
 ## 🔍 Aplicações de CNN nas Ciênciais Florestais
