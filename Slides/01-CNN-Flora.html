@@ -6,8 +6,6 @@
     <meta name="author" content="Prof. Dr. Deivison Venicio Souza" />
     <script src="01-CNN-Flora_files/header-attrs-2.29/header-attrs.js"></script>
     <link href="01-CNN-Flora_files/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <link href="01-CNN-Flora_files/font-awesome-animation-1.0/font-awesome-animation-emi.css" rel="stylesheet" />
-    <script src="01-CNN-Flora_files/fontawesome-5.0.13/js/fontawesome-all.min.js"></script>
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
         TeX: { equationNumbers: { autoNumber: "AMS" } },
@@ -27,9 +25,9 @@
     <textarea id="source">
 
 class: title-slide, center, middle
-background-image: url(fig/LMFTCA.png), url(fig/ufpa.png), url(fig/PPGBC.png), url(fig/PPGCTIF.PNG), url(fig/title.jpg)
-background-position: 90% 5%, 10% 5%, 10% 90%, 90% 90%
-background-size: 130px, 110px, 150px, 130px, cover
+background-image: url(fig/LMFTCA.png), url(fig/ufpa.png), url(fig/PPGBC.png), url(fig/PPGCTIF.PNG), url(fig/deepflora.png), url(fig/title.jpg)
+background-position: 90% 5%, 10% 5%, 10% 90%, 90% 90%, 50% 25%
+background-size: 130px, 110px, 150px, 130px, 400px, cover
 
 
 
@@ -46,12 +44,12 @@ background-size: 130px, 110px, 150px, 130px, cover
 ##### Programa de Pós-Graduação em Biodiversidade e Conservação (PPGBC)/UFPA
 ##### Programa de Pós-Graduação em Ciência, Tecnologia e Inovação Florestal (PPGCTIF)/UFOPA
 
+&lt;br&gt;&lt;br&gt;
+
 ## Reconhecimento de Espécies de Plantas Usando Recursos de Imagens: Um enfoque nas Redes Neurais Convolucionais (RNCs)
-### *Plant Species Recognition Using Image Features: A Focus on Convolutional Neural Networks (CNNs)*
-&lt;br&gt;
-<span>&lt;i class="fab  fa-pagelines fa-2x faa-horizontal animated " style=" color:green;"&gt;&lt;/i&gt;</span>
-<span>&lt;i class="fas  fa-tree fa-2x faa-float animated " style=" color:green;"&gt;&lt;/i&gt;</span>
-&lt;br&gt;
+
+&lt;br&gt;&lt;br&gt;
+
 ##### 〰〰〰〰〰〰〰〰〰🌳〰〰〰〰〰〰〰〰〰
 ##### .font120[**Deivison Venicio Souza**]
 ##### Professor Associado I - UFPA
@@ -59,7 +57,7 @@ background-size: 130px, 110px, 150px, 130px, cover
 ##### 👨🏻‍👩🏻‍👦🏻‍👦🏻 [@lmftca_ufpa](https://www.instagram.com/lmftca_ufpa/)
 ##### 🌎 [https://www.lmftca.com.br/](https://www.lmftca.com.br/)
 &lt;br&gt;
-##### 1ª versão: 08/setembro/2025 &lt;br&gt; (Atualizado em: 06/setembro/2025) &lt;br&gt; Altamira, Pará
+##### 1ª versão: 08/setembro/2025 &lt;br&gt; (Atualizado em: 07/setembro/2025) &lt;br&gt; Altamira, Pará
 
 ---
 layout: true
@@ -70,7 +68,7 @@ background-size: 100px, cover
 ---
 layout: true
 background-image: url(fig/deepflora.png), url(fig/cont.png)
-background-position: 80% 50%
+background-position: 95% 50%
 background-size: 600px, cover
 ---
 ## 📙 Conteúdo
@@ -80,19 +78,27 @@ background-size: 600px, cover
 👉 **Parte 1 - Redes Neurais Convolucionais - RNCs**
 .font80[
 
-[3 - Redes Neurais Convolucionais (RNCs)](#ia)
+[1 - Definição](#def)
 
-&amp;nbsp;&amp;nbsp;[3.1 - O que são?](#TA)
+[2 - Principais tarefas](#pt)
 
-&amp;nbsp;&amp;nbsp;[3.2 - Arquitetura](#TA)
+[3 - Estrutura básica de RNCs](#est)
 
-&amp;nbsp;&amp;nbsp;[3.3 - Redes Neurais Convolucionais Pré-Treinadas](#TA)
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[3.1 - Camadas convolucionais (*Convolutional layers*)](#cl)
 
-&amp;nbsp;&amp;nbsp;[3.4 - Frameworks (Tensorflow, keras, PyTorch)](#TA)
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[3.2 - Função de ativação ReLU (*Rectified Linear Unit - ReLU*)](#relu)
 
-[3 - Métodos de Reamostragem](#rea) 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[3.3 - Camadas de agrupamento (*Pooling layers*)](#pl)
 
-[4 - Medidas de Desempenho](#des)
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[3.4 - Camadas totalmente conectadas (*Fully connected layers*)](#fcl)
+
+[4 - RNCs Pré-Treinadas (*Pre-Trained CNNs*)](#pre)
+
+[5 - Frameworks (Tensorflow, keras, PyTorch)](#fra)
+
+[3 - Métodos de Reamostragem](#mr) 
+
+[4 - Medidas de Desempenho](#md)
 
 ]
 ]
@@ -157,7 +163,7 @@ background-image: url(fig/sec.png)
 background-size: cover
 
 ## .font80[**Redes Neurais Convolucionais (RNCs) &lt;br&gt; (*Convolutional Neural Networks - CNNs*)**]
-### (Definição, Camadas, Arquiteturas, Frameworks, ...)
+### (Definição, Estrutura, Frameworks, ...)
 
 ---
 layout: true
@@ -192,7 +198,7 @@ Redes Neurais Convolucionais são algoritmos de Inteligência Artificial baseado
 ## 🧠 Convolutional Neural Networks - CNNs
 
 .shadow1[
-#### 🤔 Estrutura de CNNs
+#### 🤔 Estrutura básica de CNNs
 
 .font90[
 Comumente, uma CNN é composta por 4 partes principais:
