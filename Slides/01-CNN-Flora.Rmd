@@ -778,6 +778,42 @@ background-image:  url(fig/LMFTCA.png), url(fig/cont.png)
 background-position: 99% 94%
 background-size: 100px, cover
 ---
+## 🔍 Aplicações populares
+
+<br>
+.center[**Tarefa**: .green[Detecção de pedestres...]]
+<br>
+
+```{r , echo=FALSE, fig.show='hold', out.width='60%', fig.align='center'}
+knitr::include_graphics('fig/detect.jpg')
+```
+.center[.font80[**Fonte**: Farhat et al. (2025).]]
+
+---
+## 🔍 Aplicações populares
+
+<br>
+.center[**Tarefa**: .green[Detecção e classificação em carros autônomos...]]
+<br>
+
+.pull-left-4[
+```{r , echo=FALSE, fig.show='hold', out.width='90%', fig.align='center'}
+knitr::include_graphics('fig/car.png')
+```
+]
+
+.pull-right4[
+```{r , echo=FALSE, fig.show='hold', out.width='43%', fig.align='center'}
+knitr::include_graphics('fig/car2.png')
+```
+]
+
+.pull-left-15[
+.center[.font80[**Fonte**: Feng et al. (2020).]]
+]
+
+
+---
 ## 🔍 Aplicações de CNN nas Ciênciais Florestais
 
 ```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
