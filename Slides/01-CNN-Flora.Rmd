@@ -119,10 +119,6 @@ background-size: 600px, cover
 
 [5 - Frameworks (Tensorflow, keras, PyTorch)](#fra)
 
-[3 - Métodos de Reamostragem](#mr) 
-
-[4 - Medidas de Desempenho](#md)
-
 ]
 ]
 
@@ -131,16 +127,22 @@ background-size: 600px, cover
 <br>
 
 .pull-top[
-👉 **Parte 2 - Aplicações de CNN nas Ciênciais Florestais**
+👉 **Parte 2 - Aplicações Populares e nas Ciênciais Florestais de CNNs**
 .font80[
 
-[1 - Detecção de troncos de árvores](#mot)
+[1 - Detecção de Pedestres](#ped)
 
-[2 - Estimativa de diâmetro de árvores](#mot)
+[2 - Carros Autônomos](#mot)
 
-[3 - Detecção de simultânea de altura e copa de árvores](#mot)
+[3 - Reconhecimento de Emoções Faciais](#mot)
 
-[4 - Detecção de doenças em copas de árvores](#mot)
+[4 - Reconhecimento Facial](#mot)
+
+[5 - Estimativa de diâmetro de árvores](#mot)
+
+[6 - Detecção de simultânea de altura e copa de árvores](#mot)
+
+[7 - Detecção de doenças em copas de árvores](#mot)
 
 ]
 ]
@@ -769,7 +771,7 @@ layout: false
 background-image: url(fig/sec.png)
 background-size: cover
 
-## **Aplicações de CNN nas <br> Ciênciais Florestais:**
+## **Aplicações de CNNs populares <br> e nas Ciênciais Florestais:**
 ### (Detectção, Segmentação e Classificação)
 
 ---
@@ -793,7 +795,7 @@ knitr::include_graphics('fig/detect.jpg')
 ## 🔍 Aplicações populares
 
 <br>
-.center[**Tarefa**: .green[Detecção e classificação em carros autônomos...]]
+.center[**Tarefa**: .green[Detecção e classificação por carros autônomos...]]
 <br>
 
 .pull-left-4[
@@ -812,6 +814,29 @@ knitr::include_graphics('fig/car2.png')
 .center[.font80[**Fonte**: Feng et al. (2020).]]
 ]
 
+---
+## 🔍 Aplicações populares
+
+<br>
+.center[**Tarefa**: .green[Reconhecimento de Emoções Faciais...]]
+<br>
+
+```{r , echo=FALSE, fig.show='hold', out.width='60%', fig.align='center'}
+knitr::include_graphics('fig/facial.png')
+```
+.center[.font80[**Fonte**: Akhand et al. (2021).]]
+
+---
+## 🔍 Aplicações populares
+
+<br>
+.center[**Tarefa**: .green[Reconhecimento Facial...]]
+<br>
+
+```{r , echo=FALSE, fig.show='hold', out.width='80%', fig.align='center'}
+knitr::include_graphics('fig/face.png')
+```
+.center[.font60[**Fonte**: https://www.codemag.com/Article/2205081/Implementing-Face-Recognition-Using-Deep-Learning-and-Support-Vector-Machines.]]
 
 ---
 ## 🔍 Aplicações de CNN nas Ciênciais Florestais
