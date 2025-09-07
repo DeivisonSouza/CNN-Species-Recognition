@@ -699,9 +699,68 @@ knitr::include_graphics('fig/CNN.jpeg')
 ```
 .center[.font70[**Fonte**: [https://ravjot03.medium.com/decoding-cnns-a-beginners-guide-to-convolutional-neural-networks-and-their-applications-1a8806cbf536](https://ravjot03.medium.com/decoding-cnns-a-beginners-guide-to-convolutional-neural-networks-and-their-applications-1a8806cbf536)]]
 
+---
+## 🧠 Convolutional Neural Networks - CNNs
 
+.shadow1[
+#### 🤔 Frameworks (TensorFlow)
+]
 
+.pull-left-4[
+```{r , echo=FALSE, fig.show = 'hold', out.width = "90%", fig.align = 'center'}
+knitr::include_graphics('fig/TensorFlow.png')
+```
+]
 
+.pull-right-4[
+
+- Desenvolvido pela Google.
+- Suporte para diversas linguagens de programação: Python, C++, JavaScript, Java, Go, C# e Julia.
+- TensorFlow funciona em dispositivos móveis por meio do TensorFlow Lite (TFLite).
+
+]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 🤔 Frameworks (Pytorch)
+]
+
+.pull-left-4[
+```{r , echo=FALSE, fig.show = 'hold', out.width = "90%", fig.align = 'center'}
+knitr::include_graphics('fig/pytorch.webp')
+```
+]
+
+.pull-right-4[
+<br><br>
+- Desenvolvido pela Facebook.
+- Suporte: Python e C++
+- Funciona em plataformas móveis.
+
+]
+
+---
+## 🧠 Convolutional Neural Networks - CNNs
+
+.shadow1[
+#### 🤔 Frameworks (Keras)
+]
+
+.pull-left-4[
+```{r , echo=FALSE, fig.show = 'hold', out.width = "90%", fig.align = 'center'}
+knitr::include_graphics('fig/keras.png')
+```
+]
+
+.pull-right-4[
+<br><br>
+- É uma API de alto nível.
+- Funciona em cima de: Tensorflow, Theano e CNTK
+- Muito intuitiva. Simplifica o desenvolvimento de modelos de machine learning e deep learning.
+
+]
 
 <!-- Slide XX -->
 ---
