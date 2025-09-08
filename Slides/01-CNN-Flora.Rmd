@@ -200,11 +200,11 @@ background-size: 100px, cover
 
 .shadow1[
 #### 🤔 Definição
-Redes Neurais Convolucionais (do inglês, *Convolutional Neural Networks - CNNs*) são algoritmos de Inteligência Artificial baseados em redes neurais multicamadas (*multi-layer neural networks*) que **aprendem características** relevantes a partir de **imagens**, sendo capazes de realizar diversas tarefas, como **classificação**, **detecção e segmentação** de objetos em imagens.
+Redes Neurais Convolucionais (do inglês, *Convolutional Neural Networks - CNNs*) são algoritmos de inteligência artificial baseados em redes neurais multicamadas (*multi-layer neural networks*) que **aprendem características** relevantes a partir de **imagens**, sendo capazes de realizar diversas tarefas, como **classificação**, **detecção e segmentação** de objetos em imagens.
 ]
 <br><br>
 
-.center[.blue[As CNNs tentam imitar como o cérebro humano opera para reconhecer padrões e características em imagens.]]
+.center[.blue[As CNNs tentam imitar como o cérebro humano opera para reconhecer padrões e características em imagens!]]
 
 ---
 ## 🧠 Redes Neurais Convolucionais - RNCs
@@ -277,7 +277,7 @@ knitr::include_graphics('fig/CNN.jpeg')
 .center[🤔 .orange[**OPERAÇÃO DE CONVOLUÇÃO?**] .blue[(Entrada * Kernel)]]
 - .blue[**Operação matemática**]: consiste na **multiplicação de matrizes**, porém de forma elementar.<br><br>
 - .blue[**Na prática**]: consiste na multiplicação elementar de valores de uma matriz **kernel** (filtros) pelos valores de **pixels de uma imagem** e, em seguida, obteção das **somas dos produtos**. Os filtros são **aplicados à imagem inteira**, deslizando-o da **esquerda para direita** e de **cima para baixo**.<br><br>
-- .blue[**Saída**]: mapa de recursos (*feature map*) ou mapa de ativação (*activation map*). Exibe características específicas que foram detectadas na imagem de entrada.
+- .blue[**Saída**]: **mapa de recursos** (*feature map*) ou **mapa de ativação** (*activation map*). Exibe características específicas que foram detectadas na imagem de entrada.
 ]
 ]
 
@@ -702,7 +702,7 @@ knitr::include_graphics('code/aver_pool.png')
 #### 🤔 Estrutura básica de RNCs para tarefas de Classificação
 ]
 
-```{r , echo=FALSE, fig.show = 'hold', out.width = "80%", fig.align = 'center'}
+```{r , echo=FALSE, fig.show = 'hold', out.width = "70%", fig.align = 'center'}
 knitr::include_graphics('fig/CNN.jpeg')
 ```
 .center[.font70[**Fonte**: [https://ravjot03.medium.com/decoding-cnns-a-beginners-guide-to-convolutional-neural-networks-and-their-applications-1a8806cbf536](https://ravjot03.medium.com/decoding-cnns-a-beginners-guide-to-convolutional-neural-networks-and-their-applications-1a8806cbf536)]]
