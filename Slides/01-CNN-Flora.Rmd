@@ -115,7 +115,7 @@ background-size: 600px, cover
 
 &nbsp;&nbsp;&nbsp;&nbsp;[3.4 - Camadas totalmente conectadas (*Fully connected layers*)](#fcl)
 
-[4 - RNCs Pré-Treinadas (*Pre-Trained CNNs*)](#pre)
+[4 - Aprendizagem por Transferência (*Transfer learning*)](#tl)
 
 [5 - Frameworks (Tensorflow, keras, PyTorch)](#fra)
 
@@ -769,6 +769,45 @@ knitr::include_graphics('fig/keras.png')
 - Muito intuitiva. Simplifica o desenvolvimento de modelos de machine learning e deep learning.
 
 ]
+
+---
+## 🧠 Redes Neurais Convolucionais - RNCs
+
+.shadow1[
+#### 🤔 Transfer learning
+
+- **Definição**: A aprendizagem por transferência (do inglês, *Transfer learning*) refere-se à reutilização de um modelo pré-treinado em um novo problema.
+- **Motivação**: Menor tempo de treinamento. Conjunto de dados limitados.
+- **Denominação**: Redes Neurais Convolucionais Pré-Treinadas (*Pre-trained CNNs*). <br><br>
+
+]
+<br>
+
+.center[.blue[Em geral, treinar uma CNN do zero requer muitos dados, que nem sempre estão disponíveis!]]
+
+---
+## 🧠 Redes Neurais Convolucionais - RNCs
+
+.shadow1[
+#### 🤔 Algumas Redes Pré-Treinadas para Classificação disponíveis no **Keras**
+]
+
+```{r , echo=FALSE, fig.show = 'hold', out.width = "50%", fig.align = 'center'}
+knitr::include_graphics('fig/cnn_keras.png')
+```
+.center[.font70[**Fonte**: [https://keras.io/api/applications/](https://keras.io/api/applications/)]]
+
+---
+## 🧠 Redes Neurais Convolucionais - RNCs
+
+.shadow1[
+#### 🤔 Arquitetura da rede **VGG-16**
+]
+
+```{r , echo=FALSE, fig.show = 'hold', out.width = "60%", fig.align = 'center'}
+knitr::include_graphics('fig/vgg16.png')
+```
+.center[.font80[**Fonte**: Khan et al. (2019).]]
 
 <!-- Slide XX -->
 ---
