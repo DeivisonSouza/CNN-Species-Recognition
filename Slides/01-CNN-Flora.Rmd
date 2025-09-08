@@ -196,19 +196,27 @@ background-image:  url(fig/LMFTCA.png), url(fig/cont.png)
 background-position: 96% 8%
 background-size: 100px, cover
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 🤔 Definição
-Redes Neurais Convolucionais são algoritmos de Inteligência Artificial baseados em redes neurais multicamadas (*multi-layer neural networks*) que aprendem características relevantes a partir de imagens, sendo capazes de realizar diversas tarefas, como classificação, detecção e segmentação de objetos.
+Redes Neurais Convolucionais (do inglês, *Convolutional Neural Networks - CNNs*) são algoritmos de Inteligência Artificial baseados em redes neurais multicamadas (*multi-layer neural networks*) que aprendem características relevantes a partir de imagens, sendo capazes de realizar diversas tarefas, como classificação, detecção e segmentação de objetos em imagens.
 ]
 <br><br>
 
 .center[.blue[As CNNs tentam imitar como o cérebro humano opera para reconhecer padrões e características em imagens.]]
 
+---
+## 🧠 Redes Neurais Convolucionais - RNCs
+<br><br>
+
+```{r , echo=FALSE, fig.show = 'hold', out.width = "70%", fig.align = 'center'}
+knitr::include_graphics('fig/AI.png')
+```
+.center[.font80[**Fonte**: Honavar (2022).]]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 
 .shadow1[
@@ -222,7 +230,7 @@ knitr::include_graphics('fig/tasks.webp')
 
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 🤔 Estrutura básica de RNCs para tarefas de Classificação
@@ -244,7 +252,7 @@ Comumente, uma CNN é composta por 4 partes principais:
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 🤔 Estrutura básica de RNCs para tarefas de Classificação
@@ -256,7 +264,7 @@ knitr::include_graphics('fig/CNN.jpeg')
 .center[.font70[**Fonte**: [https://ravjot03.medium.com/decoding-cnns-a-beginners-guide-to-convolutional-neural-networks-and-their-applications-1a8806cbf536](https://ravjot03.medium.com/decoding-cnns-a-beginners-guide-to-convolutional-neural-networks-and-their-applications-1a8806cbf536)]]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 1 - Camadas convolucionais (.black[*Convolutional layers*])
@@ -274,7 +282,7 @@ knitr::include_graphics('fig/CNN.jpeg')
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 1 - Camadas convolucionais (.black[*Convolutional layers*])
@@ -294,7 +302,7 @@ knitr::include_graphics('fig/CNN.jpeg')
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 1 - Camadas convolucionais (.black[*Convolutional layers*])
@@ -328,7 +336,7 @@ knitr::include_graphics('fig/conv/conv2.png')
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 1 - Camadas convolucionais (.black[*Convolutional layers*])
@@ -362,7 +370,7 @@ knitr::include_graphics('fig/conv/conv4.png')
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 1 - Camadas convolucionais (.black[*Convolutional layers*])
@@ -396,7 +404,7 @@ knitr::include_graphics('fig/conv/conv6.png')
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 1 - Camadas convolucionais (.black[*Convolutional layers*])
@@ -430,7 +438,7 @@ knitr::include_graphics('fig/conv/conv8.png')
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 1 - Camadas convolucionais (.black[*Convolutional layers*])
@@ -451,7 +459,7 @@ knitr::include_graphics('fig/conv/conv9.png')
 .center[.font80[**Fonte**: O autor (2025).]]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 1 - Camadas convolucionais (.black[*Convolutional layers*])
@@ -477,7 +485,7 @@ knitr::include_graphics('fig/conv/conv9.png')
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 ```{r side-by-side-images, echo=FALSE, fig.show = 'hold', out.width = "17%", fig.align = 'default'}
 ### Figure 1 Title
@@ -492,7 +500,7 @@ knitr::include_graphics('code/gaussian_blur.png')
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .pull-left-3[
 ```{r , echo=FALSE, fig.cap="" , fig.show='hold', out.width='100%', fig.align='center'}
@@ -507,7 +515,7 @@ knitr::include_graphics('fig/conv/conv-rgb2.png')
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .pull-left-3[
 ```{r , echo=FALSE, fig.cap="" , fig.show='hold', out.width='100%', fig.align='center'}
@@ -522,7 +530,7 @@ knitr::include_graphics('fig/conv/conv-rgb.gif')
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 2 - Função de ativação ReLU - (.black[*Rectified Linear Unit - ReLU*])
@@ -538,7 +546,7 @@ knitr::include_graphics('fig/conv/conv-rgb.gif')
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 2 - Função de ativação ReLU - (.black[*Rectified Linear Unit - ReLU*])
@@ -562,10 +570,8 @@ $f(x) = \begin{cases} x & \text{if } x \ge 0 \\ 0 & \text{if } x < 0 \end{cases}
 
 ]
 
-
-
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 2 - Função de ativação ReLU - (.black[*Rectified Linear Unit - ReLU*])
@@ -583,7 +589,7 @@ knitr::include_graphics('fig/relu.png')
 ```
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 3 - Camadas de agrupamento (.black[*Pooling layers* ou *down-sampling layer*])
@@ -602,7 +608,7 @@ knitr::include_graphics('fig/relu.png')
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 3 - Camadas de agrupamento (.black[*Pooling layers*])
@@ -642,7 +648,7 @@ Na operação de *Pooling*, o *stride* (**tamanho do passo**) é, por padrão, s
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 3 - Camadas de agrupamento (.black[*Pooling layers*])
@@ -655,7 +661,7 @@ knitr::include_graphics('code/max_pool.png')
 ```
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 3 - Camadas de agrupamento (.black[*Pooling layers*])
@@ -668,7 +674,7 @@ knitr::include_graphics('code/aver_pool.png')
 ```
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 4 - Camadas totalmente conectadas (.black[*Fully connected layers*])
@@ -690,7 +696,7 @@ knitr::include_graphics('code/aver_pool.png')
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 🤔 Estrutura básica de RNCs para tarefas de Classificação
@@ -702,7 +708,7 @@ knitr::include_graphics('fig/CNN.jpeg')
 .center[.font70[**Fonte**: [https://ravjot03.medium.com/decoding-cnns-a-beginners-guide-to-convolutional-neural-networks-and-their-applications-1a8806cbf536](https://ravjot03.medium.com/decoding-cnns-a-beginners-guide-to-convolutional-neural-networks-and-their-applications-1a8806cbf536)]]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 🤔 Frameworks (TensorFlow)
@@ -723,7 +729,7 @@ knitr::include_graphics('fig/TensorFlow.png')
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 🤔 Frameworks (Pytorch)
@@ -744,7 +750,7 @@ knitr::include_graphics('fig/pytorch.webp')
 ]
 
 ---
-## 🧠 Convolutional Neural Networks - CNNs
+## 🧠 Redes Neurais Convolucionais - RNCs
 
 .shadow1[
 #### 🤔 Frameworks (Keras)
@@ -1092,9 +1098,28 @@ knitr::include_graphics('fig/Sun2.png')
 
 ---
 ## 🔍 Aplicações de CNN nas Ciênciais Florestais
+<br>
+.pull-left-9[
+```{r , echo=FALSE, fig.show='hold', out.width='70%', fig.align='center'}
+knitr::include_graphics('fig/gama.png')
+```
+.center[.font80[**Fonte**: Gama et al. (2025).]]
+]
 
-# Imagens Casca (Gama)
+.pull-right-9[
+<br>
+.center[**Tarefa**: .green[Classificação]]
 
+.center[.blue[Classificação de espécies de madeira baseado em imagens de casca externa de árvores...]]
+
+.font80[
+- Abordagem: ResNet50 (Extração de Recursos) + SVM (Classificador)
+- Acurácia: 95%
+- Número de Espécies: 16
+- Origem: Brasil (Floresta Amazônica) - Espécies Comerciais
+- Número de imagens: 2.803
+]
+]
 
 <!-- Slide XX -->
 ---
