@@ -34,8 +34,8 @@
 # Descrição
 
 Este repositório guarda os arquivos (.Rmd, .R, .html) usados na palestra
-intitulada **“Reconhecimento de Espécies de Plantas Usando Recursos de
-Imagens: Um enfoque nas Redes Neurais Convolucionais (RNCs)”**
+intitulada **“Classificação de Imagens com Redes Neurais Convolucionais
+(RNCs): Aplicações no Reconhecimento de Espécies de Plantas”**
 ministrada pelo **Prof. Dr. Deivison Venicio Souza** para discentes de
 graduação em Engenharia Florestal e do Programa de Pós-Graduação em
 Engenharia Florestal da Universidade Federal do Paraná (UFPR) a convite
@@ -43,9 +43,9 @@ da **Profa. Ana Paula Dalla Corte**.
 
 # Slide da palestra
 
-O slide da palestra síncrona intitulada **“Reconhecimento de Espécies de
-Plantas Usando Recursos de Imagens: Um enfoque nas Redes Neurais
-Convolucionais (RNCs)”** está disponível a seguir.
+O slide da palestra síncrona intitulada **“Classificação de Imagens com
+Redes Neurais Convolucionais (RNCs): Aplicações no Reconhecimento de
+Espécies de Plantas”** está disponível a seguir.
 
 | Slide | Link |
 |:---|:---|
