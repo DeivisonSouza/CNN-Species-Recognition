@@ -44,7 +44,6 @@ knitr::opts_chunk$set(
   dpi = 600)
 ```
 
-
 ```{r xaringan-logo, echo=FALSE}
 library(xaringanExtra)
 
@@ -827,6 +826,19 @@ knitr::include_graphics('fig/cnn_keras.png')
 knitr::include_graphics('fig/vgg16.png')
 ```
 .center[.font80[**Fonte**: Khan et al. (2019).]]
+
+---
+## 🧠 Redes Neurais Convolucionais - RNCs
+
+.shadow1[
+#### 🤔 Transfer learning vs Fine Tuning
+]
+
+```{r , echo=FALSE, fig.show = 'hold', out.width = "50%", fig.align = 'center'}
+knitr::include_graphics('fig/fine.png')
+```
+.center[.font80[**Fonte**: Islam et al. (2023).]]
+
 
 <!-- Slide XX -->
 ---
