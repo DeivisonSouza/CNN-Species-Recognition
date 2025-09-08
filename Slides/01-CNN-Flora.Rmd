@@ -200,7 +200,7 @@ background-size: 100px, cover
 
 .shadow1[
 #### 🤔 Definição
-Redes Neurais Convolucionais (do inglês, *Convolutional Neural Networks - CNNs*) são algoritmos de Inteligência Artificial baseados em redes neurais multicamadas (*multi-layer neural networks*) que aprendem características relevantes a partir de imagens, sendo capazes de realizar diversas tarefas, como classificação, detecção e segmentação de objetos em imagens.
+Redes Neurais Convolucionais (do inglês, *Convolutional Neural Networks - CNNs*) são algoritmos de Inteligência Artificial baseados em redes neurais multicamadas (*multi-layer neural networks*) que **aprendem características** relevantes a partir de **imagens**, sendo capazes de realizar diversas tarefas, como **classificação**, **detecção e segmentação** de objetos em imagens.
 ]
 <br><br>
 
@@ -220,7 +220,7 @@ knitr::include_graphics('fig/AI.png')
 
 
 .shadow1[
-#### 🤔 Principais Tarefas
+#### 🤔 Principais Tarefas usando RNCs
 ]
 
 ```{r , echo=FALSE, fig.show = 'hold', out.width = "80%", fig.align = 'center'}
@@ -243,7 +243,7 @@ Comumente, uma CNN é composta por 4 partes principais:
 - 4 - **Camadas totalmente conectadas** (*Fully connected layers*)
 
 👉 .blue[**Essas camadas pode ser divididas em duas partes:**]
-- Camadas 1, 2 e 3: Extratora de recursos (.green[*Feature extraction*])
+- Camadas 1, 2 e 3: Extração de recursos (.green[*Feature extraction*])
 - Camada 4: Classificação (.green[*Classification*])
 
 <br>
@@ -258,7 +258,7 @@ Comumente, uma CNN é composta por 4 partes principais:
 #### 🤔 Estrutura básica de RNCs para tarefas de Classificação
 ]
 
-```{r , echo=FALSE, fig.show = 'hold', out.width = "80%", fig.align = 'center'}
+```{r , echo=FALSE, fig.show = 'hold', out.width = "70%", fig.align = 'center'}
 knitr::include_graphics('fig/CNN.jpeg')
 ```
 .center[.font70[**Fonte**: [https://ravjot03.medium.com/decoding-cnns-a-beginners-guide-to-convolutional-neural-networks-and-their-applications-1a8806cbf536](https://ravjot03.medium.com/decoding-cnns-a-beginners-guide-to-convolutional-neural-networks-and-their-applications-1a8806cbf536)]]
